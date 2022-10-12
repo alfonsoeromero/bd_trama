@@ -1,0 +1,22 @@
+{% load static %}<!doctype html>
+<html lang="es">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>A Basic HTML5 Template</title>
+    <meta name="description" content="Base de datos del proyecto TRAMA.">
+    <meta name="author" content="Proyecto TRAMA">
+    <link rel="stylesheet" href="{% static 'trama/main.css' %}">
+    </head>
+<body>
+<h1>Base de datos del proyecto TRAMA</h1>
+<div class="topnav">
+    <a href="{% url 'index' %}">Inicio</a>
+    <a href="{% url 'search' %}">Buscador</a>
+    <a href="{% url 'listado' %}">Listado</a>
+    <a href="/admin">Administrar</a>
+    <span class="active" href=".">Acerca de</span>
+  </div>
+    
+</body>
+</html>

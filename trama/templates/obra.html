@@ -1,0 +1,26 @@
+<html>
+    <head>    <title>Detalle de obra</title>
+    </head>
+    <body>
+        <h1>{{obra.nombre_obra}}</h1>
+        <ul>
+            <li>Autor: {{obra.autor}}</li>
+            <li>Año / época: {{obra.anno}}</li>
+            <li>Ubicación: {{obra.ubicacion}}</li>
+            <li>Tipo de obra: {{obra.tipo_de_obra.nombre_tipo}}</li>
+            <li>Estilo: {{obra.estilo.nombre_estilo}}</li>
+            <li>Iconografía: {{obra.iconografia}}</li>
+
+            <li>Trabajos representados: ({{obra.trabajo_representado.all.count}}):
+                <ul>
+                    {% for trabajo in obra.trabajo_representado.all %}
+                    <li>{{ trabajo.nombre_trabajo }}</li>{% endfor %}
+                </ul>
+            </li>
+            <li>Descripción: {{obra.descripcion}}</li>  
+        </ul>
+
+    </body>
+
+
+</html>

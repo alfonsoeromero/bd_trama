@@ -1,0 +1,58 @@
+{% load static %}<!doctype html>
+<html lang="es">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>A Basic HTML5 Template</title>
+    <meta name="description" content="Base de datos del proyecto TRAMA.">
+    <meta name="author" content="Proyecto TRAMA">
+    <link rel="stylesheet" href="{% static 'trama/main.css' %}">
+    </head>
+<body>
+<h1>Listado de obras</h1>
+<div class="topnav">
+    <a href="{% url 'index' %}">Inicio</a>
+    <a href="{% url 'search' %}">Buscador</a>
+    <span class="active" href=".">Listado</span>
+    <a href="admin">Administrar</a>
+    <a href="{% url 'acerca' %}">Acerca de</a>
+  </div>
+  <hr/>
+
+  <div class="cuerpo">
+
+    <p>Número de obras en la base de datos: <strong>{{result.paginator.count}}</strong></p>
+    <div class="pagination">
+      <span class="step-links">
+          {% if result.has_previous %}
+              <a href="?pagina=1">&laquo; Primera</a>
+              <a href="?pagina={{ result.previous_page_number }}">Anterior</a>
+
+              <span class="current">
+                Página {{ result.number }} de {{ result.paginator.num_pages }}.
+              </span>
+              {% endif %}
+
+            {% if result.has_next %}
+                <a href="?pagina={{ result.next_page_number }}">Posterior</a>
+                <a href="?pagina={{ result.paginator.num_pages }}">Última &raquo;</a>
+            {% endif %}
+      </span>
+    </div>
+
+    {% for obra in result %}  
+    <div class="resultado_obra">
+     <p>&nbsp;Número obra: <strong>{{offset|add:forloop.counter}}</strong> de
+      <strong>{{result.paginator.count}}</strong>.
+      <a href="{% url 'detalle_obra' obra.pk %}">[ Mostrar detalle ]</a></p>
+      <ul>
+        <li><strong>Nombre:</strong> {{obra.nombre_obra}}.</li>
+        <li><strong>Autor:</strong> {{obra.autor}}.</li>
+      </ul>
+    </div>
+    {% endfor %}
+
+  </div>
+  <hr/>
+</body>
+</html>

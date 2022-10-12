@@ -1,0 +1,23 @@
+body {
+    background-color: antiquewhite;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+	font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
+}
+
+.active{
+    font-weight: bold;
+    text-decoration: underline;
+    color: grey;
+}
+
+.cuerpo{
+    margin-top: 2%;
+    background-color: whitesmoke;
+    color: darkred;
+}
+
+.resultado_obra{
+    border: 1px solid black;
+}

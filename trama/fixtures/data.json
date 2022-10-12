@@ -1,0 +1,1026 @@
+[
+    {
+        "model": "trama.estilo",
+        "pk": 0,
+        "fields": {
+            "nombre_estilo": "Renacimiento"
+        }
+    },
+    {
+        "model": "trama.estilo",
+        "pk": 1,
+        "fields": {
+            "nombre_estilo": "Barroco"
+        }
+    },
+    {
+        "model": "trama.tipodeobra",
+        "pk": 0,
+        "fields": {
+            "nombre_tipo": "Pintura"
+        }
+    },
+    {
+        "model": "trama.tipodeobra",
+        "pk": 1,
+        "fields": {
+            "nombre_tipo": "Escultura"
+        }
+    },
+    {
+        "model": "trama.tipodeobra",
+        "pk": 2,
+        "fields": {
+            "nombre_tipo": "Relieve"
+        }
+    },
+    {
+        "model": "trama.tipodeobra",
+        "pk": 3,
+        "fields": {
+            "nombre_tipo": "Plater\u00eda"
+        }
+    },
+    {
+        "model": "trama.tipodeobra",
+        "pk": 4,
+        "fields": {
+            "nombre_tipo": "Textil"
+        }
+    },
+    {
+        "model": "trama.tipodeobra",
+        "pk": 5,
+        "fields": {
+            "nombre_tipo": "Vidrio"
+        }
+    },
+    {
+        "model": "trama.tipodeobra",
+        "pk": 6,
+        "fields": {
+            "nombre_tipo": "Otros"
+        }
+    },
+    {
+        "model": "trama.trabajorepresentado",
+        "pk": 0,
+        "fields": {
+            "nombre_trabajo": "Crianza"
+        }
+    },
+    {
+        "model": "trama.trabajorepresentado",
+        "pk": 1,
+        "fields": {
+            "nombre_trabajo": "Limpieza"
+        }
+    },
+    {
+        "model": "trama.trabajorepresentado",
+        "pk": 2,
+        "fields": {
+            "nombre_trabajo": "Tejedora"
+        }
+    },
+    {
+        "model": "trama.trabajorepresentado",
+        "pk": 3,
+        "fields": {
+            "nombre_trabajo": "Costurera"
+        }
+    },
+    {
+        "model": "trama.trabajorepresentado",
+        "pk": 4,
+        "fields": {
+            "nombre_trabajo": "Bordadora"
+        }
+    },
+    {
+        "model": "trama.trabajorepresentado",
+        "pk": 5,
+        "fields": {
+            "nombre_trabajo": "Alfarera"
+        }
+    },
+    {
+        "model": "trama.trabajorepresentado",
+        "pk": 6,
+        "fields": {
+            "nombre_trabajo": "Constructora"
+        }
+    },
+    {
+        "model": "trama.trabajorepresentado",
+        "pk": 7,
+        "fields": {
+            "nombre_trabajo": "Educadora"
+        }
+    },
+    {
+        "model": "trama.trabajorepresentado",
+        "pk": 8,
+        "fields": {
+            "nombre_trabajo": "Nodriza"
+        }
+    },
+    {
+        "model": "trama.trabajorepresentado",
+        "pk": 9,
+        "fields": {
+            "nombre_trabajo": "Lavandera"
+        }
+    },
+    {
+        "model": "trama.trabajorepresentado",
+        "pk": 10,
+        "fields": {
+            "nombre_trabajo": "Cocinera"
+        }
+    },
+    {
+        "model": "trama.trabajorepresentado",
+        "pk": 11,
+        "fields": {
+            "nombre_trabajo": "Pastora"
+        }
+    },
+    {
+        "model": "trama.trabajorepresentado",
+        "pk": 12,
+        "fields": {
+            "nombre_trabajo": "Escritora"
+        }
+    },
+    {
+        "model": "trama.trabajorepresentado",
+        "pk": 13,
+        "fields": {
+            "nombre_trabajo": "Militar"
+        }
+    },
+    {
+        "model": "trama.trabajorepresentado",
+        "pk": 14,
+        "fields": {
+            "nombre_trabajo": "M\u00e9dico/Curandera"
+        }
+    },
+    {
+        "model": "trama.trabajorepresentado",
+        "pk": 15,
+        "fields": {
+            "nombre_trabajo": "Hilandera"
+        }
+    },
+    {
+        "model": "trama.trabajorepresentado",
+        "pk": 16,
+        "fields": {
+            "nombre_trabajo": "Aguadora/buscadora agua"
+        }
+    },
+    {
+        "model": "trama.trabajorepresentado",
+        "pk": 17,
+        "fields": {
+            "nombre_trabajo": "Matrona"
+        }
+    },
+    {
+        "model": "trama.trabajorepresentado",
+        "pk": 18,
+        "fields": {
+            "nombre_trabajo": "Vendedora"
+        }
+    },
+    {
+        "model": "trama.trabajorepresentado",
+        "pk": 19,
+        "fields": {
+            "nombre_trabajo": "Criada"
+        }
+    },
+    {
+        "model": "trama.trabajorepresentado",
+        "pk": 20,
+        "fields": {
+            "nombre_trabajo": "Cuidadora"
+        }
+    },
+    {
+        "model": "trama.trabajorepresentado",
+        "pk": 21,
+        "fields": {
+            "nombre_trabajo": "Camarera/mesonera"
+        }
+    },
+    {
+        "model": "trama.trabajorepresentado",
+        "pk": 22,
+        "fields": {
+            "nombre_trabajo": "Pintora"
+        }
+    },
+    {
+        "model": "trama.obra",
+        "pk": 3,
+        "fields": {
+            "nombre_obra": "Santa Justa y Rufina",
+            "autor": "Hernando de Esturmio",
+            "anno": "1555",
+            "estilo": 0,
+            "tipo_de_obra": 0,
+            "ubicacion": "Retablo de la capilla de los Evangelistas. Catedral de Sevilla",
+            "iconografia": "Santa Justa y Rufina",
+            "descripcion": "Oleo sobre tabla. Parte de la predella del retablo. Santas alfareras con giralda detr\u00e1s de ellas",
+            "trabajo_representado": [
+                2,
+                5
+            ]
+        }
+    },
+    {
+        "model": "trama.obra",
+        "pk": 4,
+        "fields": {
+            "nombre_obra": "Sagrada familia del pajarito",
+            "autor": "Bartolom\u00e9 Esteban Murillo",
+            "anno": "1650",
+            "estilo": 1,
+            "tipo_de_obra": 0,
+            "ubicacion": "Museo del Prado",
+            "iconografia": "Sagrada Familia",
+            "descripcion": "\u00d3leo sobre lienzo, 144 x 188 cm\nSagrada familia, infancia de Cristo en escena cotidiana del hogar. Virgen hilando mientras San Jos\u00e9 juega con el ni\u00f1o. A los pies de la virgen cesto de mimbre con textiles",
+            "trabajo_representado": [
+                3,
+                15
+            ]
+        }
+    },
+    {
+        "model": "trama.obra",
+        "pk": 7,
+        "fields": {
+            "nombre_obra": "San Diego de Alcal\u00e1 dando de comer a los pobres",
+            "autor": "Bartolom\u00e9 Esteban Murillo",
+            "anno": "1645",
+            "estilo": 1,
+            "tipo_de_obra": 0,
+            "ubicacion": "Real Academia de San Fernando",
+            "iconografia": "San Diego de Alcal\u00e1 dando de comer a pobres",
+            "descripcion": "San Diego junto a un olla da de comer a poblres, la comida a trav\u00e9s de las oraciones nunca se agota. Tipos populares lo reodean, destacan mujeres, ni\u00f1os y ancianos",
+            "trabajo_representado": [
+                0
+            ]
+        }
+    },
+    {
+        "model": "trama.obra",
+        "pk": 8,
+        "fields": {
+            "nombre_obra": "Santa Isabel de Hungr\u00eda curando a los ti\u00f1osos",
+            "autor": "Bartolom\u00e9 Esteban Murillo",
+            "anno": "1672",
+            "estilo": 1,
+            "tipo_de_obra": 0,
+            "ubicacion": "glesia de San Jorge (Hospital de la Caridad)",
+            "iconografia": "Santa Isabel de Hungr\u00eda cura a ti\u00f1osos",
+            "descripcion": "\u00d3leo sobre lienzo. encargo de Miguel de Ma\u00f1ara, para la decoraci\u00f3n de la iglesia de San Jorge del Hospital de la Hermandad de la Caridad de Sevilla. En el lienzo se representa a Santa Isabel de Hungr\u00eda ayudada por unas damas, mientras vierte agua sobre la cabeza de un ni\u00f1o que se encuentra afectado de ti\u00f1a c\u00e1pitis. Santa Isabel de Hungr\u00eda (1207-1231) era una mujer de ascendencia noble, hija del rey Andr\u00e9s II de Hungr\u00eda, tras quedar viuda en el a\u00f1o 1227 dedic\u00f3 su vida a la religi\u00f3n y a socorrer a los enfermos y necesitados. Orden\u00f3 la construcci\u00f3n de un hospital en la ciudad de Marburgo en el que ella misma atend\u00eda a los pacientes",
+            "trabajo_representado": [
+                14
+            ]
+        }
+    },
+    {
+        "model": "trama.obra",
+        "pk": 9,
+        "fields": {
+            "nombre_obra": "Santa Ana ense\u00f1ando a leer a la Virgen",
+            "autor": "Bartolom\u00e9 Esteban Murillo",
+            "anno": "1655",
+            "estilo": 1,
+            "tipo_de_obra": 0,
+            "ubicacion": "Museo del Prado",
+            "iconografia": "Santa Ana ense\u00f1ando a leer a la virgen Mar\u00eda",
+            "descripcion": "\u00d3leo sobre lienzo.Instrucci\u00f3n de la Virgen por parte de su madre que ha dejado su costura para dedicarle tiempo a la ensa\u00f1anza de la virgen. Escena cotidiana.",
+            "trabajo_representado": [
+                7
+            ]
+        }
+    },
+    {
+        "model": "trama.obra",
+        "pk": 10,
+        "fields": {
+            "nombre_obra": "Santas Justa y Rufina",
+            "autor": "Bartolom\u00e9 Esteban Murillo",
+            "anno": "1666",
+            "estilo": 1,
+            "tipo_de_obra": 0,
+            "ubicacion": "Museo de Bellas Artes, Sevilla",
+            "iconografia": "Santas Justa y Rufina",
+            "descripcion": "Se trata de una de las pinturas realizadas para decorar la iglesia del Convento de los Capuchinos de Sevilla. Est\u00e1n retratadas ambas hermanas, de pie, sosteniendo en las manos una representaci\u00f3n de la Giralda, pues popularmente se crey\u00f3 que fue su intercesi\u00f3n la que impidi\u00f3 que el minarete, para entonces ya campanario de la catedral se cayera en el terremoto de 1504. Las vasijas de barro que aparecen en el suelo son atributo de las santas, al ser hijas de un alfarero. Tambi\u00e9n, por ser m\u00e1rtires, aparece la hoja de palma del martirio.\n",
+            "trabajo_representado": [
+                5
+            ]
+        }
+    },
+    {
+        "model": "trama.obra",
+        "pk": 11,
+        "fields": {
+            "nombre_obra": "Santa Rufina",
+            "autor": "Francisco de Zurbaran (Taller)",
+            "anno": "1635",
+            "estilo": 1,
+            "tipo_de_obra": 0,
+            "ubicacion": "The Fitzwilliam Museum. Cambridge.",
+            "iconografia": "Santa Rufina",
+            "descripcion": "Joven Santa Rufina vestida como una noble portando platos y tazones de cer\u00e1mica",
+            "trabajo_representado": [
+                5
+            ]
+        }
+    },
+    {
+        "model": "trama.obra",
+        "pk": 12,
+        "fields": {
+            "nombre_obra": "Anunciaci\u00f3n",
+            "autor": "Bartolom\u00e9 Esteban Murillo",
+            "anno": "1660",
+            "estilo": 1,
+            "tipo_de_obra": 0,
+            "ubicacion": "Museo Estatal Del Hermitage, Saint Petersburg",
+            "iconografia": "Anunciaci\u00f3n",
+            "descripcion": "\u00d3leo sobre lienzo. Anunciaci\u00f3n de San Gabriel a la Virgen que a sus pies tiene una cesta con su costura",
+            "trabajo_representado": [
+                3
+            ]
+        }
+    },
+    {
+        "model": "trama.obra",
+        "pk": 13,
+        "fields": {
+            "nombre_obra": "Cuatro figuras en un escal\u00f3n",
+            "autor": "Bartolom\u00e9 Esteban Murillo",
+            "anno": "1655",
+            "estilo": 1,
+            "tipo_de_obra": 0,
+            "ubicacion": "Kimbell Art Museum, Fort Worth, Texas (Estados Unidos)",
+            "iconografia": "Cuatro personajes miran al espectador, mujer despiojando",
+            "descripcion": "\u00d3leo sobre lienzo. Escena constumbrista, de g\u00e9nero, dif\u00edcil interpretaci\u00f3n. Mujer con gafas despiojando a un ni\u00f1o",
+            "trabajo_representado": [
+                0
+            ]
+        }
+    },
+    {
+        "model": "trama.obra",
+        "pk": 14,
+        "fields": {
+            "nombre_obra": "Vieja despiojando a un ni\u00f1o",
+            "autor": "Bartolom\u00e9 Esteban Murillo",
+            "anno": "1670",
+            "estilo": 1,
+            "tipo_de_obra": 0,
+            "ubicacion": "Alte Pinakothek, Munich",
+            "iconografia": "Vieja despiojando a un ni\u00f1o",
+            "descripcion": "\u00d3leo sobre lienzo, 147,5 x 113 cm\nMujer y ni\u00f1o en un ambiente dom\u00e9stico ha dejado su uso y rueca de hilar a un lado y quita piojos a un ni\u00f1o\n\n- Hilandera\n-Cuidadora",
+            "trabajo_representado": [
+                0,
+                15
+            ]
+        }
+    },
+    {
+        "model": "trama.obra",
+        "pk": 15,
+        "fields": {
+            "nombre_obra": "Rebeca y Eliezer",
+            "autor": "Bartolom\u00e9 Esteban Murillo",
+            "anno": "1660",
+            "estilo": 1,
+            "tipo_de_obra": 0,
+            "ubicacion": "Museo del Prado",
+            "iconografia": "Rebeca y Eliezer",
+            "descripcion": "Narra un episodio procedente de G\u00e9nesis 24: Abraham le pide a uno de sus siervos (Eliezer) que vaya a buscar una esposa para su hijo (Isaac) a la tierra de donde \u00e9l tuvo que salir y le traiga la mujer para desposarla. Eliezer encuentra a Rebeca junto a un pozo\n\n- Aguadoras\n- Mujeres van a la fuente a por agua",
+            "trabajo_representado": [
+                16
+            ]
+        }
+    },
+    {
+        "model": "trama.obra",
+        "pk": 17,
+        "fields": {
+            "nombre_obra": "Vieja con huso",
+            "autor": "Bartolom\u00e9 Esteban Murillo",
+            "anno": "1642",
+            "estilo": 1,
+            "tipo_de_obra": 0,
+            "ubicacion": "Museo del Prado",
+            "iconografia": "Mujer mayor con huso",
+            "descripcion": "Pintura de g\u00e9nero, anciana con huso para hilar",
+            "trabajo_representado": [
+                15
+            ]
+        }
+    },
+    {
+        "model": "trama.obra",
+        "pk": 18,
+        "fields": {
+            "nombre_obra": "Vendedoras de fruta",
+            "autor": "Bartolom\u00e9 Esteban Murillo",
+            "anno": "1675",
+            "estilo": 1,
+            "tipo_de_obra": 0,
+            "ubicacion": "Pinacoteca Antigua de M\u00fanich",
+            "iconografia": "Ni\u00f1as vendedoras de fruta",
+            "descripcion": "Dos ni\u00f1as sentadas, vendedoras de fruta, cuentan sus monedas",
+            "trabajo_representado": [
+                18
+            ]
+        }
+    },
+    {
+        "model": "trama.obra",
+        "pk": 19,
+        "fields": {
+            "nombre_obra": "Adoraci\u00f3n de los pastores",
+            "autor": "Bartolom\u00e9 Esteban Murillo",
+            "anno": "1650",
+            "estilo": 1,
+            "tipo_de_obra": 0,
+            "ubicacion": "Museo del Hermitage",
+            "iconografia": "Adoraci\u00f3n de los pastores",
+            "descripcion": "Adoraci\u00f3n de los pastores. Una mujer mayor pastora sonrie al ni\u00f1o Jes\u00fas",
+            "trabajo_representado": [
+                11
+            ]
+        }
+    },
+    {
+        "model": "trama.obra",
+        "pk": 20,
+        "fields": {
+            "nombre_obra": "Horneando panes planos",
+            "autor": "Bartolom\u00e9 Esteban Murillo",
+            "anno": "1650",
+            "estilo": 1,
+            "tipo_de_obra": 0,
+            "ubicacion": "Museo del Hermitage",
+            "iconografia": "Mujeres y un hombre haciendo panes sin levadura",
+            "descripcion": "Dos mujeres y un hombre junto a una chimenea est\u00e1 cocinando panes planos, sin levadura",
+            "trabajo_representado": [
+                10
+            ]
+        }
+    },
+    {
+        "model": "trama.obra",
+        "pk": 22,
+        "fields": {
+            "nombre_obra": "Nacimiento de la Virgen",
+            "autor": "Bartolom\u00e9 Esteban Murillo",
+            "anno": "1660",
+            "estilo": 1,
+            "tipo_de_obra": 0,
+            "ubicacion": "Museo del Louvre",
+            "iconografia": "Nacimiento Virgen",
+            "descripcion": "Santa Ana acaba de dar a luz, en la cama. sobrepuerta de la Capilla de la Concepci\u00f3n Grande de la catedral sevillana. En el centro, bajo un peque\u00f1o rompimiento de gloria, un grupo de matronas y \u00e1ngeles en composici\u00f3n decreciente deudora de Rubens se arremolinan alegres en torno a la reci\u00e9n nacida, de la que emana un foco de luz que ilumina intensamente el primer plano y se degrada hacia el fondo.\n\nMatronas",
+            "trabajo_representado": [
+                17,
+                19
+            ]
+        }
+    },
+    {
+        "model": "trama.obra",
+        "pk": 23,
+        "fields": {
+            "nombre_obra": "El patricio revela su sue\u00f1o al papa Liberio",
+            "autor": "Bartolom\u00e9 Esteban Murillo",
+            "anno": "1665",
+            "estilo": 1,
+            "tipo_de_obra": 0,
+            "ubicacion": "",
+            "iconografia": "sue\u00f1o del patricio Juan y su esposa",
+            "descripcion": "eg\u00fan una antigua leyenda medieval, el origen de la mencionada iglesia matriz de Santa Mar\u00eda de las Nieves de Roma, que tuvo lugar en el siglo IV durante el pontificado del papa Liberio. En aquella \u00e9poca viv\u00eda en la Ciudad Eterna un patricio llamado Juan que profesaba una gran devoci\u00f3n a la Virgen Mar\u00eda, a la cual hab\u00eda decidido legar, de acuerdo con su esposa, al fallecimiento de ambos, todos sus bienes. Para ello, en numerosas ocasiones los dos esposos hab\u00edan rogado a la Virgen que les enviase alguna se\u00f1al o indicaci\u00f3n de c\u00f3mo deb\u00edan formalizar la entrega de su fortuna para que se invirtiese en su culto. A este respecto la leyenda se\u00f1ala que un d\u00eda, 5 de agosto, la Virgen se les apareci\u00f3 en sue\u00f1os durante la noche para encomendarles, de acuerdo con sus intereses, que edificasen una iglesia en el monte Esquilino, en cuya c\u00faspide encontrar\u00edan trazada con nieve la planta del templo",
+            "trabajo_representado": [
+                3
+            ]
+        }
+    },
+    {
+        "model": "trama.obra",
+        "pk": 25,
+        "fields": {
+            "nombre_obra": "Nacimiento de San Juan Bautista",
+            "autor": "Bartolom\u00e9 Esteban Murillo",
+            "anno": "1665",
+            "estilo": 1,
+            "tipo_de_obra": 0,
+            "ubicacion": "Norton Simon Museum",
+            "iconografia": "Nacimiento de San Juan Bautista",
+            "descripcion": "Isabel, prima de la Virge en un \u00e1ngulo en la cama tras el parto del ni\u00f1o. En el centro grupo de matronas, mujeres y amas lo limpian y cuidan",
+            "trabajo_representado": [
+                17,
+                19
+            ]
+        }
+    },
+    {
+        "model": "trama.obra",
+        "pk": 26,
+        "fields": {
+            "nombre_obra": "Virgen con el ni\u00f1o y \u00e1ngeles m\u00fasicos",
+            "autor": "Bartolom\u00e9 Esteban Murillo",
+            "anno": "1675",
+            "estilo": 1,
+            "tipo_de_obra": 0,
+            "ubicacion": "Museo de Bellas Artes de Budapest ",
+            "iconografia": "madonna con \u00e1ngeles",
+            "descripcion": "Virgen cambiando pa\u00f1ales al ni\u00f1o Jes\u00fas",
+            "trabajo_representado": [
+                0
+            ]
+        }
+    },
+    {
+        "model": "trama.obra",
+        "pk": 27,
+        "fields": {
+            "nombre_obra": "Sagrada familia con \u00e1ngeles",
+            "autor": "Bartolom\u00e9 Esteban Murillo",
+            "anno": "1670",
+            "estilo": 1,
+            "tipo_de_obra": 0,
+            "ubicacion": "Colecci\u00f3n duque de Devonshire",
+            "iconografia": "Sagrada familia con \u00e1ngeles",
+            "descripcion": "scena en el taller de Nazareth, dotando de intimismo a la composici\u00f3n. Mar\u00eda interrumpe su labor para levantar una ligera s\u00e1bana que cubre al Ni\u00f1o dormido y contemplarle, lo mismo que hace san Jos\u00e9 que tambi\u00e9n descansa de su labor, sosteniendo en sus manos una pieza de madera y una azuela. Si no existiera la presencia de una peque\u00f1a corte de \u00e1ngeles en la parte superior de la composici\u00f3n, el lienzo parecer\u00eda una escena de car\u00e1cter popular ya que los personajes no tienen ning\u00fan elemento que aluda a su divinidad",
+            "trabajo_representado": [
+                0,
+                3
+            ]
+        }
+    },
+    {
+        "model": "trama.obra",
+        "pk": 29,
+        "fields": {
+            "nombre_obra": "Huida a Egipto",
+            "autor": "Bartolom\u00e9 Esteban Murillo",
+            "anno": "",
+            "estilo": 1,
+            "tipo_de_obra": 0,
+            "ubicacion": "Instituto de Artes de Detroit",
+            "iconografia": "Sagrada familia en la hu\u00edda a Egipto",
+            "descripcion": "La sagrada familia en su hu\u00edda a Egipto. San Jos\u00e9 a pie porta en su espalda sus herramientas, Mar\u00eda en el burro cuida al ni\u00f1o",
+            "trabajo_representado": [
+                0
+            ]
+        }
+    },
+    {
+        "model": "trama.obra",
+        "pk": 30,
+        "fields": {
+            "nombre_obra": "Virgen ni\u00f1a hilando",
+            "autor": "Juan Ruiz Soriano",
+            "anno": "XVIII",
+            "estilo": 1,
+            "tipo_de_obra": 0,
+            "ubicacion": "Colecci\u00f3n particular, Sevilla",
+            "iconografia": "Virgen ni\u00f1a hilando",
+            "descripcion": "Virgen ni\u00f1a sentada con uso y bobina hilando",
+            "trabajo_representado": [
+                15
+            ]
+        }
+    },
+    {
+        "model": "trama.obra",
+        "pk": 32,
+        "fields": {
+            "nombre_obra": "Sagrada Familia",
+            "autor": "Juan Ruiz Soriano",
+            "anno": "XVIII",
+            "estilo": 1,
+            "tipo_de_obra": 0,
+            "ubicacion": "Catedral de Sevilla",
+            "iconografia": "Sagrada Familia",
+            "descripcion": "Sagrada familia en escena cotidiana, Virgen con su cesto de costura a los pies",
+            "trabajo_representado": [
+                0,
+                3
+            ]
+        }
+    },
+    {
+        "model": "trama.obra",
+        "pk": 33,
+        "fields": {
+            "nombre_obra": "La bendici\u00f3n de Isaac a Jacob",
+            "autor": "Bartolom\u00e9 Esteban Murillo",
+            "anno": "1660",
+            "estilo": 1,
+            "tipo_de_obra": 0,
+            "ubicacion": " Museo Estatal Del Hermitage",
+            "iconografia": "Isaac bendice a Jacob",
+            "descripcion": "Escena con dos \u00e1mbitos, interior donde sucede la escena y mujer cuida al enfermo. Fuera gentes sencillas trabajando, mujer lleva agua del r\u00edo a la casa",
+            "trabajo_representado": [
+                16,
+                20
+            ]
+        }
+    },
+    {
+        "model": "trama.obra",
+        "pk": 43,
+        "fields": {
+            "nombre_obra": "Sagrada Familia",
+            "autor": "Bartolom\u00e9 Esteban Murillo",
+            "anno": "1665",
+            "estilo": 1,
+            "tipo_de_obra": 0,
+            "ubicacion": "The State Hermitage Museum",
+            "iconografia": "Sagrada familia",
+            "descripcion": "Sa Jos\u00e9 en la carpinter\u00eda sostiene al ni\u00f1o, la Virgen que est\u00e1 cosiendo abre sus brazos para cogerlo",
+            "trabajo_representado": [
+                0,
+                3
+            ]
+        }
+    },
+    {
+        "model": "trama.obra",
+        "pk": 44,
+        "fields": {
+            "nombre_obra": "Sagrada familia con San Juanito",
+            "autor": "Bartolom\u00e9 Esteban Murillo",
+            "anno": "1668",
+            "estilo": 1,
+            "tipo_de_obra": 0,
+            "ubicacion": "Museo de Bellas Artes de Budapest",
+            "iconografia": "Sagrada familia con San Juanito",
+            "descripcion": "Escena cotidiana con San Jos\u00e9 trabajando en la carpinter\u00eda, la Virgen cosiendo y cuidando a los ni\u00f1os que juegan a hacer una cruz",
+            "trabajo_representado": [
+                0,
+                3
+            ]
+        }
+    },
+    {
+        "model": "trama.obra",
+        "pk": 46,
+        "fields": {
+            "nombre_obra": "Divina Pastora",
+            "autor": "Juan Ruiz Soriano",
+            "anno": "XVIII",
+            "estilo": 1,
+            "tipo_de_obra": 0,
+            "ubicacion": "Colecci\u00f3n particular. Vendido em 2016 en subasta",
+            "iconografia": "Divina pastora",
+            "descripcion": "Firmado en el \u00e1ngulo inferior izquierdo. Con importante marco de la \u00e9poca, a base de roleos y angelotes, realizado en madera tallada, dorada y policromada, de 130 x 105 cm.\nJuan Ru\u00edz Soriano fue uno de los pintores m\u00e1s prol\u00edficos en la Sevilla de la primera mitad del S. XVIII, continuador del estilo de Murillo. Para su Divina Pastora, el pintor sigue el modelo creado por Alonso Miguel de Tovar a partir de los escritos de Fray Isidoro de Sevilla: \u201cP\u00edntase pues este prodigio de la gracia, esta Imagen milagrosa, con la mayor hermosura, que el pincel le puede dar, en un monte, o valle, entre \u00e1rboles, y plantas, sitio propio de los Pastores, sentada en una pe\u00f1a, rodeada toda de Ovejitas, que a cada una tiene en la boca una Rosa hermos\u00edsima (...)\u201d.\n\nDimensions\n80 x 60 cm\n\nMedium\n\u00d3leo sobre lienzo",
+            "trabajo_representado": [
+                11
+            ]
+        }
+    },
+    {
+        "model": "trama.obra",
+        "pk": 47,
+        "fields": {
+            "nombre_obra": "Anunciaci\u00f3n",
+            "autor": "Bernardo Lorente",
+            "anno": "1741",
+            "estilo": 1,
+            "tipo_de_obra": 0,
+            "ubicacion": "Capilla universitaria en la antigua f\u00e1brica de Tabacos, Sevilla",
+            "iconografia": "Anunciaci\u00f3n",
+            "descripcion": "La virgen arrodillada frente a un mueble en el que lee con libro y vela recibe al arc\u00e1ngel Gabriel. A un lado su labor de costura con tijeras y otros \u00fatiles",
+            "trabajo_representado": [
+                3
+            ]
+        }
+    },
+    {
+        "model": "trama.obra",
+        "pk": 48,
+        "fields": {
+            "nombre_obra": "Divina pastora",
+            "autor": "Bernardo Germ\u00e1n y Lorente",
+            "anno": "XVIII",
+            "estilo": 1,
+            "tipo_de_obra": 0,
+            "ubicacion": "Colecci\u00f3n particular. Subasta 2013",
+            "iconografia": "Divina pastora",
+            "descripcion": "Bernardo Germ\u00e1n fue uno de los pintores por excelencia del tema de la divina pastora.",
+            "trabajo_representado": [
+                11
+            ]
+        }
+    },
+    {
+        "model": "trama.obra",
+        "pk": 49,
+        "fields": {
+            "nombre_obra": "Divina Pastora",
+            "autor": " Alonso Miguel de Tovar",
+            "anno": "XVIII",
+            "estilo": 1,
+            "tipo_de_obra": 0,
+            "ubicacion": "Colecci\u00f3n particular",
+            "iconografia": "Divina pastora",
+            "descripcion": "Divina pastora, escuela de Murillo",
+            "trabajo_representado": [
+                11
+            ]
+        }
+    },
+    {
+        "model": "trama.obra",
+        "pk": 50,
+        "fields": {
+            "nombre_obra": "Sagrada Familia",
+            "autor": "Bartolom\u00e9 Esteban Murillo",
+            "anno": "XVII",
+            "estilo": 1,
+            "tipo_de_obra": 0,
+            "ubicacion": "Desconocido, subasta en 2010",
+            "iconografia": "Sagrada Familia",
+            "descripcion": "Sagrada familia en carpinter\u00eda, Mar\u00eda cosiendo",
+            "trabajo_representado": [
+                3
+            ]
+        }
+    },
+    {
+        "model": "trama.obra",
+        "pk": 51,
+        "fields": {
+            "nombre_obra": "Virgen de la faja",
+            "autor": "Bartolom\u00e9 Esteban Murillo",
+            "anno": "1660",
+            "estilo": 1,
+            "tipo_de_obra": 0,
+            "ubicacion": "Colecci\u00f3n particular",
+            "iconografia": "Virgen cambiando pa\u00f1ales al ni\u00f1o",
+            "descripcion": "Virgen fajando al ni\u00f1o Jes\u00fas mientras \u00e1ngeles tocan",
+            "trabajo_representado": [
+                0
+            ]
+        }
+    },
+    {
+        "model": "trama.obra",
+        "pk": 52,
+        "fields": {
+            "nombre_obra": "Vieja friendo huevos",
+            "autor": "Diego Vel\u00e1zquez",
+            "anno": "1618",
+            "estilo": 1,
+            "tipo_de_obra": 0,
+            "ubicacion": "Galer\u00eda nacional de Escocia",
+            "iconografia": "Vieja con ni\u00f1o en una cocina",
+            "descripcion": "Vieja en una cocina con un ni\u00f1o que porta un mel\u00f3n se encuentra friendo huevos en un anafe de barro",
+            "trabajo_representado": [
+                10
+            ]
+        }
+    },
+    {
+        "model": "trama.obra",
+        "pk": 53,
+        "fields": {
+            "nombre_obra": "Educaci\u00f3n de la Virgen",
+            "autor": "Diego Vel\u00e1zquez",
+            "anno": "1617",
+            "estilo": 1,
+            "tipo_de_obra": 0,
+            "ubicacion": "Galer\u00eda universitaria de arte de Yale",
+            "iconografia": "Santa Ana educa a la Virgen",
+            "descripcion": "Santa Ana con San Joaqu\u00edn ense\u00f1an a leer a la Virgen",
+            "trabajo_representado": [
+                7
+            ]
+        }
+    },
+    {
+        "model": "trama.obra",
+        "pk": 54,
+        "fields": {
+            "nombre_obra": "Almuerzo de campesinos",
+            "autor": "Diego Vel\u00e1zquez",
+            "anno": "1618",
+            "estilo": 1,
+            "tipo_de_obra": 0,
+            "ubicacion": "Museo de Bellas Artes de Budapest",
+            "iconografia": "Dos hombres a la mesa servidos por muchacha",
+            "descripcion": "El almuerzo, tambi\u00e9n conocido como Almuerzo de campesinos y Muchacha y dos hombres a la mesa, es una obra atribuida a Vel\u00e1zquez, quien la habr\u00eda pintado en Sevilla en los comienzos de su carrera. No se tienen noticias de esta obra anteriores a 1795, cuando se encontraba presumiblemente en la colecci\u00f3n O\u2019Crouley de C\u00e1diz, donde se describ\u00eda como \u00abun lienzo apaisado con una serrana y dos zagales. Es una de sus mejores obras\u00bb. En 1897 estaba en la colecci\u00f3n A. Sanderson de Edimburgo. Ingres\u00f3 en el Museo de Bellas Artes de Budapest en 1908 tras salir a subasta en Christie\u2019s de Londres ese mismo a\u00f1o. El cuadro pertenece al g\u00e9nero de los bodegones que seg\u00fan Francisco Pacheco pintaba Vel\u00e1zquez para adquirir por esa v\u00eda \u00abla verdadera imitaci\u00f3n del natural\u00bb. Para Jonathan Brown, que considera s\u00f3lo probable la autor\u00eda velazque\u00f1a, se inscribir\u00eda en el g\u00e9nero de \u00abpitture ridicole\u00bb extendida en los Pa\u00edses Bajos y el norte de Italia, aunque Vel\u00e1zquez, al contrario que algunos de sus copistas, no insiste en el car\u00e1cter rid\u00edculo de sus protagonistas.",
+            "trabajo_representado": [
+                21
+            ]
+        }
+    },
+    {
+        "model": "trama.obra",
+        "pk": 55,
+        "fields": {
+            "nombre_obra": "Cristo en casa de Marta y Mar\u00eda",
+            "autor": "Diego Vel\u00e1zquez",
+            "anno": "1618",
+            "estilo": 1,
+            "tipo_de_obra": 0,
+            "ubicacion": "National Gallery, Londres",
+            "iconografia": "Visita de Cristo a casa de Marta y Mar\u00eda",
+            "descripcion": "Bodeg\u00f3n a lo divino, en segundo t\u00e9rmino escena bibl\u00edca, en primer termino dos mujeres cocinando",
+            "trabajo_representado": [
+                10,
+                19
+            ]
+        }
+    },
+    {
+        "model": "trama.obra",
+        "pk": 56,
+        "fields": {
+            "nombre_obra": "La cena de Ema\u00fas (La mulata)",
+            "autor": "Diego Vel\u00e1zquez",
+            "anno": "1618",
+            "estilo": 1,
+            "tipo_de_obra": 0,
+            "ubicacion": "National Gallery, Dublin",
+            "iconografia": "Mulata en la cocina limpiando, cena de Em\u00e1us",
+            "descripcion": "El cuadro presenta a una muchacha de tez oscura y cofia blanca situada tras una mesa de cocina que corta la figura de medio cuerpo. Con su mano izquierda coge un jarro de cer\u00e1mica vidriada, quedando sobre la mesa otros cacharros de loza y bronce, entre ellos un almirez con su mano y un ajo. En la pared del fondo un cesto de mimbre cuelga de una escarpia con una servilleta blanca. En 1933 al procederse a una limpieza se descubri\u00f3 bajo un amplio repinte del fondo una ventana a trav\u00e9s de la cual se ve a Cristo bendiciendo el pan y a un hombre barbado a su izquierda, faltando un segundo disc\u00edpulo del que s\u00f3lo queda una mano, dado el recorte sufrido por el lienzo en esta parte. La escena as\u00ed representada, la Cena de Ema\u00fas.",
+            "trabajo_representado": [
+                1,
+                10
+            ]
+        }
+    },
+    {
+        "model": "trama.obra",
+        "pk": 57,
+        "fields": {
+            "nombre_obra": "La mulata, La cocinera o Escena de cocina",
+            "autor": "Diego Vel\u00e1zquz",
+            "anno": "1618",
+            "estilo": 1,
+            "tipo_de_obra": 0,
+            "ubicacion": " Instituto de Arte, Chicago",
+            "iconografia": "Mulata en la cocina, recogiendo con cacharros",
+            "descripcion": "Bodeg\u00f3n de figuras hecho por Vel\u00e1zquez. Semejante es otro cuadro de la National Gallery de Dubl\u00edn, en Irlanda, legado en 1987 por Alfred Beit, en el que tras una limpieza efectuada en 1933 se descubri\u00f3 La cena de Ema\u00fas en la pared del fondo, otorgando un significado religioso a lo que hasta entonces no era sino uno m\u00e1s de los \u00abbodegones con figuras\u00bb pintados por Vel\u00e1zquez en Sevilla.",
+            "trabajo_representado": [
+                1,
+                10
+            ]
+        }
+    },
+    {
+        "model": "trama.obra",
+        "pk": 58,
+        "fields": {
+            "nombre_obra": "Nacimiento de Mar\u00eda",
+            "autor": "Francisco de Zurbar\u00e1n",
+            "anno": "1629",
+            "estilo": 1,
+            "tipo_de_obra": 0,
+            "ubicacion": "Norton Simon Museum. Pasadena. California.",
+            "iconografia": "Santa Ana da a luz a Virgen Mar\u00eda",
+            "descripcion": "Estancia, Santa Ana en la cama tras dar a luz a Mar\u00eda, es atendida por sirviendas que le dan de comer. A los pies matronas lavan y atienden al beb\u00e9. La comitente del cuadro en un lateral vive la escena y porta cesta con huevos. Por cronolog\u00eda ser\u00eda obra hecha en Sevilla.",
+            "trabajo_representado": [
+                17,
+                19,
+                20
+            ]
+        }
+    },
+    {
+        "model": "trama.obra",
+        "pk": 59,
+        "fields": {
+            "nombre_obra": "Virgen ni\u00f1a rezando",
+            "autor": "Francisco de Zurbar\u00e1n",
+            "anno": "1658?",
+            "estilo": 1,
+            "tipo_de_obra": 0,
+            "ubicacion": "Fundaci\u00f3n Rodr\u00edguez Acosta",
+            "iconografia": "Virgem ni\u00f1a",
+            "descripcion": "Virgen ni\u00f1a para su labor de costura (sudario de Cristo) para rezar",
+            "trabajo_representado": [
+                3
+            ]
+        }
+    },
+    {
+        "model": "trama.obra",
+        "pk": 70,
+        "fields": {
+            "nombre_obra": "Educaci\u00f3n de la Virgen",
+            "autor": "Alonso Cano",
+            "anno": "1650",
+            "estilo": 1,
+            "tipo_de_obra": 0,
+            "ubicacion": "Colecci\u00f3n Banco Santander",
+            "iconografia": "Educaci\u00f3n de la Virgen",
+            "descripcion": "Santa Ana con la virgencita ense\u00f1\u00e1ndole a leer. Las dimensiones hacen posible que fuera cuadro de altar, pero tambi\u00e9n podr\u00eda ser de devoci\u00f3n particular. La ambientaci\u00f3n en terraza alfombrada con balaustrada abierta al paisaje",
+            "trabajo_representado": [
+                0,
+                7
+            ]
+        }
+    },
+    {
+        "model": "trama.obra",
+        "pk": 71,
+        "fields": {
+            "nombre_obra": "Nacimiento de la Virgen",
+            "autor": "Alonso Cano",
+            "anno": "1663",
+            "estilo": 1,
+            "tipo_de_obra": 0,
+            "ubicacion": "Catedral de Granada",
+            "iconografia": "Nacimiento de la Virgen",
+            "descripcion": "La escena principal que es la Virgen acabada de nacer que es ofrecida al Cielo por su padre San Joaqu\u00edn mientras que espera una matrona con el pa\u00f1o extendido sobre su regazo.\n En el tercer plano se encuentra otra ayudante pendiente de limpiar a la Ni\u00f1a, mientras que otra pasa mucho m\u00e1s oculta atendiendo a Santa Ana que acaba de dar a luz",
+            "trabajo_representado": [
+                17
+            ]
+        }
+    },
+    {
+        "model": "trama.obra",
+        "pk": 73,
+        "fields": {
+            "nombre_obra": "Anunciaci\u00f3n",
+            "autor": "Juan Sim\u00f3n Gutierrez",
+            "anno": "XVII",
+            "estilo": 1,
+            "tipo_de_obra": 0,
+            "ubicacion": "Colecci\u00f3n privada, Vendido subasta",
+            "iconografia": "Anunciaci\u00f3n a la Virgen",
+            "descripcion": "Anunciaci\u00f3n a la Virgen que se encontraba leyendo con sus labores de costura a los pies. Es una copia muy fiel de la Anunciaci\u00f3n de Murillo",
+            "trabajo_representado": [
+                3
+            ]
+        }
+    },
+    {
+        "model": "trama.obra",
+        "pk": 76,
+        "fields": {
+            "nombre_obra": "Educaci\u00f3n de la Virgen",
+            "autor": "C\u00edrculo Juan Sim\u00f3n Guti\u00e9rrez",
+            "anno": "XVIII",
+            "estilo": 1,
+            "tipo_de_obra": 0,
+            "ubicacion": "Colecci\u00f3n privada. Subastado",
+            "iconografia": "Educaci\u00f3n Virgen",
+            "descripcion": "Santa Ana sentada ense\u00f1a a leer a la Virgen. En la esquina se muestra la canasta de las costura.",
+            "trabajo_representado": [
+                3,
+                7
+            ]
+        }
+    },
+    {
+        "model": "trama.obra",
+        "pk": 77,
+        "fields": {
+            "nombre_obra": "Virgen de la faja",
+            "autor": "Alonso Miguel de Tobar",
+            "anno": "XVII-XVIII",
+            "estilo": 1,
+            "tipo_de_obra": 0,
+            "ubicacion": "Museo de C\u00e1diz",
+            "iconografia": "Virgen de la faja",
+            "descripcion": "Copia de Murillo. La Madre de Dios se representa sentada, con su Hijo tumbado sobre sus rodillas en actitud de envolverlo con blancos pa\u00f1ales para despu\u00e9s colocarle la faja que figura en el \u00e1ngulo inferior izquierdo del lienzo",
+            "trabajo_representado": [
+                0
+            ]
+        }
+    },
+    {
+        "model": "trama.obra",
+        "pk": 78,
+        "fields": {
+            "nombre_obra": "San Joaqu\u00edn, santa Ana y la Virgen",
+            "autor": "Andr\u00e9s P\u00e9rez de Pineda",
+            "anno": "XVII-XVIII",
+            "estilo": 1,
+            "tipo_de_obra": 0,
+            "ubicacion": "Museo de Bellas Artes, C\u00f3rdoba",
+            "iconografia": "Educaci\u00f3n de la Virgen con sus padres",
+            "descripcion": "Familia de la Virgen, la virgen ni\u00f1a recibe educaci\u00f3n. Atr\u00e1s escena de la virgen beb\u00e9 atendida por \u00e1ngeles.\nEn un \u00e1nguelo \u00e1ngeles con costura.",
+            "trabajo_representado": [
+                3,
+                7
+            ]
+        }
+    }
+]

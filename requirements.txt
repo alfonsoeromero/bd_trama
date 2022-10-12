@@ -1,0 +1,4 @@
+pip>=20
+setuptools
+wheel
+Django

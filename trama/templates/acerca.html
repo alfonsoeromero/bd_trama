@@ -1,22 +1,16 @@
-{% load static %}<!doctype html>
-<html lang="es">
-    <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>A Basic HTML5 Template</title>
-    <meta name="description" content="Base de datos del proyecto TRAMA.">
-    <meta name="author" content="Proyecto TRAMA">
-    <link rel="stylesheet" href="{% static 'trama/main.css' %}">
-    </head>
-<body>
-<h1>Base de datos del proyecto TRAMA</h1>
-<div class="topnav">
-    <a href="{% url 'index' %}">Inicio</a>
-    <a href="{% url 'search' %}">Buscador</a>
-    <a href="{% url 'listado' %}">Listado</a>
-    <a href="/admin">Administrar</a>
-    <span class="active" href=".">Acerca de</span>
-  </div>
-    
-</body>
-</html>
+{% extends "base.html" %}
+
+{% block texto_barra %}Acerca de{% endblock %}
+
+{% block content %}
+
+<div class="container">
+<p>Este trabajo forma parte del Proyecto I+D <em>Los trabajos de las mujeres en la Andalucía Moderna, TRAMA</em>.</p>
+
+<p>TRAMA está financiado por el Programa FEDER (B-HUM-724-UGR20)</em></p>
+
+Investigadoras principales:
+<a href="https://www.ugr.es/personal/margarita-maria-birriel-salcedo">Margarita María Birriel Salcedo</a> e
+<a href="https://hmoderame.ugr.es/pages/profesorado/area-historia-moderna/catedratica">Inmaculada Arias de Saavedra Alías</a>
+</div>
+{% endblock %}

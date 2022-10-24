@@ -1,58 +1,48 @@
-{% load static %}<!doctype html>
-<html lang="es">
-    <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>A Basic HTML5 Template</title>
-    <meta name="description" content="Base de datos del proyecto TRAMA.">
-    <meta name="author" content="Proyecto TRAMA">
-    <link rel="stylesheet" href="{% static 'trama/main.css' %}">
-    </head>
-<body>
-<h1>Listado de obras</h1>
-<div class="topnav">
-    <a href="{% url 'index' %}">Inicio</a>
-    <a href="{% url 'search' %}">Buscador</a>
-    <span class="active" href=".">Listado</span>
-    <a href="admin">Administrar</a>
-    <a href="{% url 'acerca' %}">Acerca de</a>
-  </div>
-  <hr/>
+{% extends "base.html" %}
 
-  <div class="cuerpo">
+{% block texto_barra %}Listado completo de obras{% endblock %}
 
-    <p>Número de obras en la base de datos: <strong>{{result.paginator.count}}</strong></p>
-    <div class="pagination">
-      <span class="step-links">
-          {% if result.has_previous %}
-              <a href="?pagina=1">&laquo; Primera</a>
-              <a href="?pagina={{ result.previous_page_number }}">Anterior</a>
+{% block content %}
 
-              <span class="current">
-                Página {{ result.number }} de {{ result.paginator.num_pages }}.
-              </span>
+    <table class="table table-striped table-hover">
+      <caption class="text-center">
+        <span class="step-links">
+            {% if result.has_previous %}
+                <a href="?pagina=1" class="link-secondary"><i class="bi bi-chevron-double-left"></i></a>
+                <a href="?pagina={{ result.previous_page_number }}" class="link-secondary"><i class="bi bi-chevron-left"></i></a>
+                {% endif %}
+  
+                <span class="current">
+                  Página {{ result.number }} de {{ result.paginator.num_pages }}.
+                </span>
+  
+              {% if result.has_next %}
+                  <a href="?pagina={{ result.next_page_number }}" class="link-secondary"><i class="bi bi-chevron-right"></i></a>
+                  <a href="?pagina={{ result.paginator.num_pages }}" class="link-secondary"><i class="bi bi-chevron-double-right"></i>
+                  </a>
               {% endif %}
-
-            {% if result.has_next %}
-                <a href="?pagina={{ result.next_page_number }}">Posterior</a>
-                <a href="?pagina={{ result.paginator.num_pages }}">Última &raquo;</a>
-            {% endif %}
-      </span>
-    </div>
-
-    {% for obra in result %}  
-    <div class="resultado_obra">
-     <p>&nbsp;Número obra: <strong>{{offset|add:forloop.counter}}</strong> de
-      <strong>{{result.paginator.count}}</strong>.
-      <a href="{% url 'detalle_obra' obra.pk %}">[ Mostrar detalle ]</a></p>
-      <ul>
-        <li><strong>Nombre:</strong> {{obra.nombre_obra}}.</li>
-        <li><strong>Autor:</strong> {{obra.autor}}.</li>
-      </ul>
-    </div>
+        </span>
+      </caption>
+    <thead>
+      <tr>
+        <th>Nº</th>
+        <th>Nombre de obra</th>
+        <th>Autor</th>
+        <th>Enlace</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for obra in result %}
+    <tr>
+      <td><strong>{{offset|add:forloop.counter}}</strong> de
+        <strong>{{result.paginator.count}}</strong></td>
+      <td><em>{{obra.nombre_obra}}</em></td>
+      <td>{{obra.autor}}</td>
+      <td><a href="{% url 'detalle_obra' obra.pk %}" alt="Mostrar detalle">Ir a obra <i class="bi bi-search"></i></a></td>
+    </tr>
     {% endfor %}
+    </tbody>
+    </table>
 
-  </div>
-  <hr/>
-</body>
-</html>
+{% endblock %}
+

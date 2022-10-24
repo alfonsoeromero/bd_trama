@@ -1,34 +1,19 @@
-{% load static %}<!doctype html>
-<html lang="es">
-    <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>A Basic HTML5 Template</title>
-    <meta name="description" content="Base de datos del proyecto TRAMA.">
-    <meta name="author" content="Proyecto TRAMA">
-    <link rel="stylesheet" href="{% static 'trama/main.css' %}">
-    </head>
-<body>
-<h1>Base de datos del proyecto TRAMA</h1>
-<div class="topnav">
-    <span class="active" href=".">Inicio</span>
-    <a href="{% url 'search' %}">Buscador</a>
-    <a href="{% url 'listado' %}">Listado</a>
-    <a href="admin">Administrar</a>
-    <a href="{% url 'acerca' %}">Acerca de</a>
-  </div>
-  <hr/>
+{% extends "base.html" %}{% load static %}
 
-  <div class="cuerpo">
+{% block texto_barra %}Inicio{% endblock %}
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-    sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-
-  </div>
-  <hr/>
-</body>
-</html>
+{% block content %}
+<div class="row">
+    <img src="{% static 'trama/imagen_portada.jpg' %}"
+    class="img-fluid img-thumbnail float-left col-sm-1 col-md-2 col-xs-12"/>
+<div class="float-left col-sm-10 col-md-10 col-xs-12 mt-5 px-5">
+    <p>
+    En esta web se aloja una base de datos fruto del trabajo realizado en el proyecto
+<em>Los trabajos de las mujeres en la Andalucía Moderna, TRAMA</em>. Programa FEDER (B-HUM-724-UGR20).
+</p>
+<p>
+En ella se han registrado obras de arte de muy diversa naturaleza, propias de la Edad Moderna y
+ajustadas al ámbito andaluz en las que se pueden advertir a mujeres realizando diversos trabajos.</div>
+</p></div>
+ 
+{% endblock %}

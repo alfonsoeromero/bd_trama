@@ -2,5 +2,5 @@ from django.apps import AppConfig
 
 
 class TramaConfig(AppConfig):
-    default_auto_field = 'django.db.models.BigAutoField'
-    name = 'trama'
+    default_auto_field = "django.db.models.BigAutoField"
+    name = "trama"

@@ -1,37 +1,45 @@
-{% load static %}<!doctype html>
-<html lang="es">
-    <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>A Basic HTML5 Template</title>
-    <meta name="description" content="Base de datos del proyecto TRAMA.">
-    <meta name="author" content="Proyecto TRAMA">
-    <link rel="stylesheet" href="{% static 'trama/main.css' %}">
-    </head>
-<body>
-<h1>Buscador</h1>
+{% extends "base.html" %}
 
-<div class="topnav">
-    <a href="{% url 'index' %}">Inicio</a>
-    <span class="active" href=".">Buscador</span>
-    <a href="{% url 'listado' %}">Listado</a>
-    <a href="admin">Administrar</a>
-    <a href="{% url 'acerca' %}">Acerca de</a>
-  </div>
-  <hr/>
+{% block texto_barra %}Buscador{% endblock %}
+
+{% block content %}
+
   {%if query %}
-  Le query: <strong>{{query}}</strong>
-  {% else %}
-  
-  <form action="{% url 'search_result' %}" method="POST" id="form1">
-    {% csrf_token %}
-    <fieldset>
-      <textarea id="query" name="query"
-      rows="5" cols="33"></textarea>
-    </fieldset>
-    <input type="submit" value="Buscar">
+    <table class="table table-striped">
+      <caption class="text-center">Consulta: <strong>'{{query}}'</strong>.
+        Número de obras encontradas:  <strong>{{query_result.count}}</strong></caption>
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>Nombre de la obra</th>
+            <th>Autor</th>
+            <th>Ir a detalle</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for obra in query_result.all %}
+      <tr>
+        <td>{{obra.id}}</td>
+        <td><em>{{obra.nombre_obra}}</em></td>
+        <td>{{obra.autor}}</td>
+        <td><a href="{% url 'detalle_obra' obra.pk %}" alt="Mostrar detalle"><i class="bi bi-search"></i></a></td>
+      </tr>
+    {% endfor %}</tbody>
+    </table>
 
-  </form>
+  {% else %}
+      <form action="{% url 'search_result' %}" method="GET" id="form1">
+        <div class="form-group container">
+        <fieldset>
+          <div class="mx-sm-3 mb-2 row">
+            <div class="col-sm-1 col-md-1 col-xs-1"></div>
+          <input type="text" id="query" name="query"
+          rows="1" cols="33" class="float-left col-sm-5 col-md-5 col-xs-5"></input>
+          <div class="col-sm-1 col-md-1 col-xs-1"></div>
+          <input type="submit" value="Buscar" class="btn-light ma-2 mb-2 float-left col-sm-1 col-md-1 col-xs-1" />
+         </div>
+        </fieldset>
+        </div>
+     </form>
   {% endif %}
-</body>
-</html>
+{% endblock %}

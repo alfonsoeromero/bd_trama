@@ -1,26 +1,69 @@
-<html>
-    <head>    <title>Detalle de obra</title>
-    </head>
-    <body>
-        <h1>{{obra.nombre_obra}}</h1>
-        <ul>
-            <li>Autor: {{obra.autor}}</li>
-            <li>Año / época: {{obra.anno}}</li>
-            <li>Ubicación: {{obra.ubicacion}}</li>
-            <li>Tipo de obra: {{obra.tipo_de_obra.nombre_tipo}}</li>
-            <li>Estilo: {{obra.estilo.nombre_estilo}}</li>
-            <li>Iconografía: {{obra.iconografia}}</li>
+{% extends "base.html" %}{% load static %}{% load admin_urls %}
 
-            <li>Trabajos representados: ({{obra.trabajo_representado.all.count}}):
-                <ul>
-                    {% for trabajo in obra.trabajo_representado.all %}
-                    <li>{{ trabajo.nombre_trabajo }}</li>{% endfor %}
-                </ul>
-            </li>
-            <li>Descripción: {{obra.descripcion}}</li>  
-        </ul>
-
-    </body>
+{% block texto_barra %}Detalle de obra{% endblock %}
 
 
-</html>
+{% block content %}
+    <div class="container-fluid">
+        <h2>{{obra.nombre_obra}} <a class="btn btn-secondary"
+            href="{% url 'admin:trama_obra_change' obra.pk %}"><i class="bi bi-pencil"></i></a></h2>
+        
+    </div>  
+        <div class="container-fluid">
+            <table class="table table-striped">
+                <tbody>
+                    <tr>
+                        <td scope="row" rowspan="0">
+                            {% if obra.url_imagen %}
+                                <a href="{{obra.url_imagen}}"><img
+                                    src="{{obra.url_imagen}}" class="img-fluid"
+                                    style="vertical-align: middle;"
+                                style="max-height: 200px;"/></a>
+                            {% else %}
+                                <img src="{% static 'trama/sin_imagen.jpg' %}" />
+                            {% endif %}
+                        </td>
+                        <td scope="row"><strong>Nombre</strong></td>
+                        <td scope="row"><em>{{obra.nombre_obra}}</em></td>
+                    </tr>
+                    <tr>
+                        <td scope="row"><strong>Año / época</strong></td>
+                        <td scope="row">{{obra.anno}}</td>
+                    </tr>
+                    <tr>
+                        <td scope="row"><strong>Ubicación</strong></td>
+                        <td scope="row">{{obra.ubicacion}}</td>
+                    </tr>
+                    <tr>
+                        <td scope="row"><strong>Tipo de obra</strong></td>
+                        <td scope="row">{{obra.tipo_de_obra.nombre_tipo}}</td>
+                    </tr>
+                    <tr>
+                        <td scope="row"><strong>Estilo</strong></td>
+                        <td scope="row">{{obra.estilo.nombre_estilo}}</td>
+                    </tr>
+                    <tr>
+                        <td scope="row"><strong>Iconografía</strong></td>
+                        <td scope="row">{{obra.iconografia}}</td>
+                    </tr>
+                    <tr>
+                        <td scope="row" rowspan="{{obra.trabajo_representado.all.count}}"><strong>Trabajos representados</strong> ({{obra.trabajo_representado.all.count}})</td>
+                        {% for trabajo in obra.trabajo_representado.all %}
+                        <td scope="row">{{ trabajo.nombre_trabajo }}
+                            <a href="{% url 'search_result' %}?query={{trabajo.nombre_trabajo}}"><i class="bi bi-binoculars"></i></a>
+                        </td></tr>
+                        <tr>{% endfor %}
+                    </tr>
+                    <tr>
+                        <td scope="row"><strong>Descripción</strong></td>
+                        <td scope="row">{{obra.descripcion}}</td>
+                    </tr>
+                    {% if obra.url_externa %}
+                    <tr>
+                        <td scope="row"><strong>URL externa</strong></td>
+                        <td scope="row"><a href="{{obra.url_externa}}"><i class="bi bi-box-arrow-up-right"></i></a></td>
+                    </tr>
+                    {% endif %} 
+            </table>
+        </div>
+{% endblock %}

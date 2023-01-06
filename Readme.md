@@ -26,7 +26,7 @@ c. Carga de los datos mediante las fixturas existentes:
 
 
 ## Backup como fixtura de la base de datos existente
-`python manage.py dumpdata --indent=4 > trama/fixtures/data.json`
+`python manage.py dumpdata --indent=4 --exclude=auth --exclude=contenttypes > trama/fixtures/data.json`
 
 
 ## Ejecución del servidor de desarrollo

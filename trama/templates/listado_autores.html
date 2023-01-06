@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block texto_barra %}Listado completo de autores{% endblock %}
+
+{% block content %}
+    <table class="table table-striped table-hover">
+      <caption>Número de autores / grupos presentes en la base de datos: <strong>{{autores.count}}</strong>.</caption>
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Nombre del autor / escuela / grupo</th>
+        <th>Nº de obras en la base de datos</th>
+        <th>Obras</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for autor in autores %}
+    <tr>
+      <td rowspan="{{autor.obra_set.all|length}}">{{forloop.counter}}</td>
+      <td rowspan="{{autor.obra_set.all|length}}">{{autor.nombre}}</td>
+      <td rowspan="{{autor.obra_set.all|length}}"><strong>{{autor.obra_set.all|length}}</strong></td>
+        {% for obra in autor.obra_set.all %}
+          {% if forloop.counter != 1 %}
+          <tr>
+          {% endif %}
+          <td>
+          <em>{{obra.nombre_obra}}</em> ({{obra.anno}}) <a href="{% url 'detalle_obra' obra.pk %}"> <i class="bi bi-search"><!-- --></i></a>
+          </td>
+          </tr>
+
+        {% endfor %}
+
+    {% endfor %}
+    </tbody>
+    </table>
+
+{% endblock %}
+

@@ -33,16 +33,30 @@ class TrabajoRepresentado(models.Model):
     def __str__(self):
         return self.nombre_trabajo
 
+
+class Autor(models.Model):
+    nombre = models.CharField(max_length=256,
+        blank=False,
+        null=False,
+        help_text="Autor de la obra")
+    alias = models.CharField(max_length=256,
+        blank=False,
+        null=True,
+        help_text="Alias u otros nombres por los que el artista es conocido"
+    )
+
+
 class Obra(models.Model):
     nombre_obra = models.CharField(
         max_length=256,
         blank=False,
         null=False,
         help_text="Nombre completo de la obra")
-    autor = models.CharField(max_length=256,
+    autor = models.ForeignKey(
+        Autor,
         blank=False,
         null=False,
-        help_text="Autor de la obra")
+        on_delete=models.CASCADE)
     anno = models.CharField("Año o época aproximada de la obra",
         max_length=64,
         blank=False,

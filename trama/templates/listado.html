@@ -8,8 +8,8 @@
       <caption class="text-center">
         <span class="step-links">
             {% if result.has_previous %}
-                <a href="?pagina=1" class="link-secondary"><i class="bi bi-chevron-double-left"></i></a>
-                <a href="?pagina={{ result.previous_page_number }}" class="link-secondary"><i class="bi bi-chevron-left"></i></a>
+                <a href="?pagina=1" class="link-secondary"><i class="bi bi-chevron-double-left"><!-- --></i></a>
+                <a href="?pagina={{ result.previous_page_number }}" class="link-secondary"><i class="bi bi-chevron-left"><!-- --></i></a>
                 {% endif %}
   
                 <span class="current">
@@ -17,8 +17,8 @@
                 </span>
   
               {% if result.has_next %}
-                  <a href="?pagina={{ result.next_page_number }}" class="link-secondary"><i class="bi bi-chevron-right"></i></a>
-                  <a href="?pagina={{ result.paginator.num_pages }}" class="link-secondary"><i class="bi bi-chevron-double-right"></i>
+                  <a href="?pagina={{ result.next_page_number }}" class="link-secondary"><i class="bi bi-chevron-right"><!-- --></i></a>
+                  <a href="?pagina={{ result.paginator.num_pages }}" class="link-secondary"><i class="bi bi-chevron-double-right"><!-- --></i>
                   </a>
               {% endif %}
         </span>
@@ -37,8 +37,8 @@
       <td><strong>{{offset|add:forloop.counter}}</strong> de
         <strong>{{result.paginator.count}}</strong></td>
       <td><em>{{obra.nombre_obra}}</em></td>
-      <td>{{obra.autor}}</td>
-      <td><a href="{% url 'detalle_obra' obra.pk %}" alt="Mostrar detalle">Ir a obra <i class="bi bi-search"></i></a></td>
+      <td>{{obra.autor.nombre}}</td>
+      <td><a href="{% url 'detalle_obra' obra.pk %}">Ir a obra <i class="bi bi-search"><!-- --></i></a></td>
     </tr>
     {% endfor %}
     </tbody>

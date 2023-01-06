@@ -224,11 +224,107 @@
     }
 },
 {
+    "model": "trama.autor",
+    "pk": 1,
+    "fields": {
+        "nombre": "Hernando de Esturmio",
+        "alias": null
+    }
+},
+{
+    "model": "trama.autor",
+    "pk": 2,
+    "fields": {
+        "nombre": "Bartolomé Esteban Murillo",
+        "alias": null
+    }
+},
+{
+    "model": "trama.autor",
+    "pk": 3,
+    "fields": {
+        "nombre": "Francisco de Zurbaran (Taller)",
+        "alias": null
+    }
+},
+{
+    "model": "trama.autor",
+    "pk": 4,
+    "fields": {
+        "nombre": "Juan Ruiz Soriano",
+        "alias": null
+    }
+},
+{
+    "model": "trama.autor",
+    "pk": 5,
+    "fields": {
+        "nombre": "Bernardo Lorente",
+        "alias": "Bernardo Germán Lorente"
+    }
+},
+{
+    "model": "trama.autor",
+    "pk": 6,
+    "fields": {
+        "nombre": "Alonso Miguel de Tovar",
+        "alias": null
+    }
+},
+{
+    "model": "trama.autor",
+    "pk": 7,
+    "fields": {
+        "nombre": "Diego Velázquez",
+        "alias": null
+    }
+},
+{
+    "model": "trama.autor",
+    "pk": 8,
+    "fields": {
+        "nombre": "Francisco de Zurbarán",
+        "alias": null
+    }
+},
+{
+    "model": "trama.autor",
+    "pk": 9,
+    "fields": {
+        "nombre": "Alonso Cano",
+        "alias": null
+    }
+},
+{
+    "model": "trama.autor",
+    "pk": 10,
+    "fields": {
+        "nombre": "Juan Simón Gutiérrez",
+        "alias": null
+    }
+},
+{
+    "model": "trama.autor",
+    "pk": 11,
+    "fields": {
+        "nombre": "Andrés Pérez de Pineda",
+        "alias": null
+    }
+},
+{
+    "model": "trama.autor",
+    "pk": 12,
+    "fields": {
+        "nombre": "Círculo Juan Simón Gutiérrez",
+        "alias": null
+    }
+},
+{
     "model": "trama.obra",
     "pk": 3,
     "fields": {
         "nombre_obra": "Santa Justa y Rufina",
-        "autor": "Hernando de Esturmio",
+        "autor": 1,
         "anno": "1555",
         "ubicacion": "Retablo de la capilla de los Evangelistas. Catedral de Sevilla",
         "iconografia": "Santa Justa y Rufina",
@@ -247,7 +343,7 @@
     "pk": 4,
     "fields": {
         "nombre_obra": "Sagrada familia del pajarito",
-        "autor": "Bartolomé Esteban Murillo",
+        "autor": 2,
         "anno": "1650",
         "ubicacion": "Museo del Prado",
         "iconografia": "Sagrada Familia",
@@ -267,7 +363,7 @@
     "pk": 7,
     "fields": {
         "nombre_obra": "San Diego de Alcalá dando de comer a los pobres",
-        "autor": "Bartolomé Esteban Murillo",
+        "autor": 2,
         "anno": "1645",
         "ubicacion": "Real Academia de San Fernando",
         "iconografia": "San Diego de Alcalá dando de comer a pobres",
@@ -286,7 +382,7 @@
     "pk": 8,
     "fields": {
         "nombre_obra": "Santa Isabel de Hungría curando a los tiñosos",
-        "autor": "Bartolomé Esteban Murillo",
+        "autor": 2,
         "anno": "1672",
         "ubicacion": "glesia de San Jorge (Hospital de la Caridad)",
         "iconografia": "Santa Isabel de Hungría cura a tiñosos",
@@ -305,7 +401,7 @@
     "pk": 9,
     "fields": {
         "nombre_obra": "Santa Ana enseñando a leer a la Virgen",
-        "autor": "Bartolomé Esteban Murillo",
+        "autor": 2,
         "anno": "1655",
         "ubicacion": "Museo del Prado",
         "iconografia": "Santa Ana enseñando a leer a la virgen María",
@@ -324,7 +420,7 @@
     "pk": 10,
     "fields": {
         "nombre_obra": "Santas Justa y Rufina",
-        "autor": "Bartolomé Esteban Murillo",
+        "autor": 2,
         "anno": "1666",
         "ubicacion": "Museo de Bellas Artes, Sevilla",
         "iconografia": "Santas Justa y Rufina",
@@ -343,7 +439,7 @@
     "pk": 11,
     "fields": {
         "nombre_obra": "Santa Rufina",
-        "autor": "Francisco de Zurbaran (Taller)",
+        "autor": 3,
         "anno": "1635",
         "ubicacion": "The Fitzwilliam Museum. Cambridge.",
         "iconografia": "Santa Rufina",
@@ -362,7 +458,7 @@
     "pk": 12,
     "fields": {
         "nombre_obra": "Anunciación",
-        "autor": "Bartolomé Esteban Murillo",
+        "autor": 2,
         "anno": "1660",
         "ubicacion": "Museo Estatal Del Hermitage, Saint Petersburg",
         "iconografia": "Anunciación",
@@ -381,7 +477,7 @@
     "pk": 13,
     "fields": {
         "nombre_obra": "Cuatro figuras en un escalón",
-        "autor": "Bartolomé Esteban Murillo",
+        "autor": 2,
         "anno": "1655",
         "ubicacion": "Kimbell Art Museum, Fort Worth, Texas (Estados Unidos)",
         "iconografia": "Cuatro personajes miran al espectador, mujer despiojando",
@@ -400,7 +496,7 @@
     "pk": 14,
     "fields": {
         "nombre_obra": "Vieja despiojando a un niño",
-        "autor": "Bartolomé Esteban Murillo",
+        "autor": 2,
         "anno": "1670",
         "ubicacion": "Alte Pinakothek, Munich",
         "iconografia": "Vieja despiojando a un niño",
@@ -420,7 +516,7 @@
     "pk": 15,
     "fields": {
         "nombre_obra": "Rebeca y Eliezer",
-        "autor": "Bartolomé Esteban Murillo",
+        "autor": 2,
         "anno": "1660",
         "ubicacion": "Museo del Prado",
         "iconografia": "Rebeca y Eliezer",
@@ -439,7 +535,7 @@
     "pk": 17,
     "fields": {
         "nombre_obra": "Vieja con huso",
-        "autor": "Bartolomé Esteban Murillo",
+        "autor": 2,
         "anno": "1642",
         "ubicacion": "Museo del Prado",
         "iconografia": "Mujer mayor con huso",
@@ -458,7 +554,7 @@
     "pk": 18,
     "fields": {
         "nombre_obra": "Vendedoras de fruta",
-        "autor": "Bartolomé Esteban Murillo",
+        "autor": 2,
         "anno": "1675",
         "ubicacion": "Pinacoteca Antigua de Múnich",
         "iconografia": "Niñas vendedoras de fruta",
@@ -477,7 +573,7 @@
     "pk": 19,
     "fields": {
         "nombre_obra": "Adoración de los pastores",
-        "autor": "Bartolomé Esteban Murillo",
+        "autor": 2,
         "anno": "1650",
         "ubicacion": "Museo del Hermitage",
         "iconografia": "Adoración de los pastores",
@@ -496,7 +592,7 @@
     "pk": 20,
     "fields": {
         "nombre_obra": "Horneando panes planos",
-        "autor": "Bartolomé Esteban Murillo",
+        "autor": 2,
         "anno": "1650",
         "ubicacion": "Museo del Hermitage",
         "iconografia": "Mujeres y un hombre haciendo panes sin levadura",
@@ -515,7 +611,7 @@
     "pk": 22,
     "fields": {
         "nombre_obra": "Nacimiento de la Virgen",
-        "autor": "Bartolomé Esteban Murillo",
+        "autor": 2,
         "anno": "1660",
         "ubicacion": "Museo del Louvre",
         "iconografia": "Nacimiento Virgen",
@@ -535,7 +631,7 @@
     "pk": 23,
     "fields": {
         "nombre_obra": "El patricio revela su sueño al papa Liberio",
-        "autor": "Bartolomé Esteban Murillo",
+        "autor": 2,
         "anno": "1665",
         "ubicacion": "Museo del Prado",
         "iconografia": "sueño del patricio Juan y su esposa",
@@ -554,7 +650,7 @@
     "pk": 25,
     "fields": {
         "nombre_obra": "Nacimiento de San Juan Bautista",
-        "autor": "Bartolomé Esteban Murillo",
+        "autor": 2,
         "anno": "1665",
         "ubicacion": "Norton Simon Museum",
         "iconografia": "Nacimiento de San Juan Bautista",
@@ -574,7 +670,7 @@
     "pk": 26,
     "fields": {
         "nombre_obra": "Virgen con el niño y ángeles músicos",
-        "autor": "Bartolomé Esteban Murillo",
+        "autor": 2,
         "anno": "1675",
         "ubicacion": "Museo de Bellas Artes de Budapest",
         "iconografia": "madonna con ángeles",
@@ -593,7 +689,7 @@
     "pk": 27,
     "fields": {
         "nombre_obra": "Sagrada familia con ángeles",
-        "autor": "Bartolomé Esteban Murillo",
+        "autor": 2,
         "anno": "1670",
         "ubicacion": "Colección duque de Devonshire",
         "iconografia": "Sagrada familia con ángeles",
@@ -613,7 +709,7 @@
     "pk": 29,
     "fields": {
         "nombre_obra": "Huida a Egipto",
-        "autor": "Bartolomé Esteban Murillo",
+        "autor": 2,
         "anno": "",
         "ubicacion": "Instituto de Artes de Detroit",
         "iconografia": "Sagrada familia en la huída a Egipto",
@@ -632,7 +728,7 @@
     "pk": 30,
     "fields": {
         "nombre_obra": "Virgen niña hilando",
-        "autor": "Juan Ruiz Soriano",
+        "autor": 4,
         "anno": "XVIII",
         "ubicacion": "Colección particular, Sevilla",
         "iconografia": "Virgen niña hilando",
@@ -651,7 +747,7 @@
     "pk": 32,
     "fields": {
         "nombre_obra": "Sagrada Familia",
-        "autor": "Juan Ruiz Soriano",
+        "autor": 4,
         "anno": "XVIII",
         "ubicacion": "Catedral de Sevilla",
         "iconografia": "Sagrada Familia",
@@ -671,7 +767,7 @@
     "pk": 33,
     "fields": {
         "nombre_obra": "La bendición de Isaac a Jacob",
-        "autor": "Bartolomé Esteban Murillo",
+        "autor": 2,
         "anno": "1660",
         "ubicacion": " Museo Estatal Del Hermitage",
         "iconografia": "Isaac bendice a Jacob",
@@ -691,11 +787,11 @@
     "pk": 43,
     "fields": {
         "nombre_obra": "Sagrada Familia",
-        "autor": "Bartolomé Esteban Murillo",
+        "autor": 2,
         "anno": "1665",
         "ubicacion": "The State Hermitage Museum",
         "iconografia": "Sagrada familia",
-        "descripcion": "Sa José en la carpintería sostiene al niño, la Virgen que está cosiendo abre sus brazos para cogerlo",
+        "descripcion": "San José en la carpintería sostiene al niño, la Virgen que está cosiendo abre sus brazos para cogerlo",
         "url_externa": null,
         "url_imagen": null,
         "estilo": 1,
@@ -711,7 +807,7 @@
     "pk": 44,
     "fields": {
         "nombre_obra": "Sagrada familia con San Juanito",
-        "autor": "Bartolomé Esteban Murillo",
+        "autor": 2,
         "anno": "1668",
         "ubicacion": "Museo de Bellas Artes de Budapest",
         "iconografia": "Sagrada familia con San Juanito",
@@ -731,7 +827,7 @@
     "pk": 46,
     "fields": {
         "nombre_obra": "Divina Pastora",
-        "autor": "Juan Ruiz Soriano",
+        "autor": 4,
         "anno": "XVIII",
         "ubicacion": "Colección particular. Vendido em 2016 en subasta",
         "iconografia": "Divina pastora",
@@ -750,7 +846,7 @@
     "pk": 47,
     "fields": {
         "nombre_obra": "Anunciación",
-        "autor": "Bernardo Lorente",
+        "autor": 5,
         "anno": "1741",
         "ubicacion": "Capilla universitaria en la antigua fábrica de Tabacos, Sevilla",
         "iconografia": "Anunciación",
@@ -769,7 +865,7 @@
     "pk": 48,
     "fields": {
         "nombre_obra": "Divina pastora",
-        "autor": "Bernardo Germán y Lorente",
+        "autor": 5,
         "anno": "XVIII",
         "ubicacion": "Colección particular. Subasta 2013",
         "iconografia": "Divina pastora",
@@ -788,7 +884,7 @@
     "pk": 49,
     "fields": {
         "nombre_obra": "Divina Pastora",
-        "autor": " Alonso Miguel de Tovar",
+        "autor": 6,
         "anno": "XVIII",
         "ubicacion": "Colección particular",
         "iconografia": "Divina pastora",
@@ -807,7 +903,7 @@
     "pk": 50,
     "fields": {
         "nombre_obra": "Sagrada Familia",
-        "autor": "Bartolomé Esteban Murillo",
+        "autor": 2,
         "anno": "XVII",
         "ubicacion": "Desconocido, subasta en 2010",
         "iconografia": "Sagrada Familia",
@@ -826,7 +922,7 @@
     "pk": 51,
     "fields": {
         "nombre_obra": "Virgen de la faja",
-        "autor": "Bartolomé Esteban Murillo",
+        "autor": 2,
         "anno": "1660",
         "ubicacion": "Colección particular",
         "iconografia": "Virgen cambiando pañales al niño",
@@ -845,7 +941,7 @@
     "pk": 52,
     "fields": {
         "nombre_obra": "Vieja friendo huevos",
-        "autor": "Diego Velázquez",
+        "autor": 7,
         "anno": "1618",
         "ubicacion": "Galería nacional de Escocia",
         "iconografia": "Vieja con niño en una cocina",
@@ -864,7 +960,7 @@
     "pk": 53,
     "fields": {
         "nombre_obra": "Educación de la Virgen",
-        "autor": "Diego Velázquez",
+        "autor": 7,
         "anno": "1617",
         "ubicacion": "Galería universitaria de arte de Yale",
         "iconografia": "Santa Ana educa a la Virgen",
@@ -883,7 +979,7 @@
     "pk": 54,
     "fields": {
         "nombre_obra": "Almuerzo de campesinos",
-        "autor": "Diego Velázquez",
+        "autor": 7,
         "anno": "1618",
         "ubicacion": "Museo de Bellas Artes de Budapest",
         "iconografia": "Dos hombres a la mesa servidos por muchacha",
@@ -902,7 +998,7 @@
     "pk": 55,
     "fields": {
         "nombre_obra": "Cristo en casa de Marta y María",
-        "autor": "Diego Velázquez",
+        "autor": 7,
         "anno": "1618",
         "ubicacion": "National Gallery, Londres",
         "iconografia": "Visita de Cristo a casa de Marta y María",
@@ -922,7 +1018,7 @@
     "pk": 56,
     "fields": {
         "nombre_obra": "La cena de Emaús (La mulata)",
-        "autor": "Diego Velázquez",
+        "autor": 7,
         "anno": "1618",
         "ubicacion": "National Gallery, Dublin",
         "iconografia": "Mulata en la cocina limpiando, cena de Emáus",
@@ -942,7 +1038,7 @@
     "pk": 57,
     "fields": {
         "nombre_obra": "La mulata, La cocinera o Escena de cocina",
-        "autor": "Diego Velázquz",
+        "autor": 7,
         "anno": "1618",
         "ubicacion": " Instituto de Arte, Chicago",
         "iconografia": "Mulata en la cocina, recogiendo con cacharros",
@@ -962,7 +1058,7 @@
     "pk": 58,
     "fields": {
         "nombre_obra": "Nacimiento de María",
-        "autor": "Francisco de Zurbarán",
+        "autor": 8,
         "anno": "1629",
         "ubicacion": "Norton Simon Museum. Pasadena. California.",
         "iconografia": "Santa Ana da a luz a Virgen María",
@@ -983,7 +1079,7 @@
     "pk": 59,
     "fields": {
         "nombre_obra": "Virgen niña rezando",
-        "autor": "Francisco de Zurbarán",
+        "autor": 8,
         "anno": "1658?",
         "ubicacion": "Fundación Rodríguez Acosta",
         "iconografia": "Virgem niña",
@@ -1002,7 +1098,7 @@
     "pk": 70,
     "fields": {
         "nombre_obra": "Educación de la Virgen",
-        "autor": "Alonso Cano",
+        "autor": 9,
         "anno": "1650",
         "ubicacion": "Colección Banco Santander",
         "iconografia": "Educación de la Virgen",
@@ -1022,7 +1118,7 @@
     "pk": 71,
     "fields": {
         "nombre_obra": "Nacimiento de la Virgen",
-        "autor": "Alonso Cano",
+        "autor": 9,
         "anno": "1663",
         "ubicacion": "Catedral de Granada",
         "iconografia": "Nacimiento de la Virgen",
@@ -1041,7 +1137,7 @@
     "pk": 73,
     "fields": {
         "nombre_obra": "Anunciación",
-        "autor": "Juan Simón Gutierrez",
+        "autor": 10,
         "anno": "XVII",
         "ubicacion": "Colección privada, Vendido subasta",
         "iconografia": "Anunciación a la Virgen",
@@ -1060,7 +1156,7 @@
     "pk": 76,
     "fields": {
         "nombre_obra": "Educación de la Virgen",
-        "autor": "Círculo Juan Simón Gutiérrez",
+        "autor": 12,
         "anno": "XVIII",
         "ubicacion": "Colección privada. Subastado",
         "iconografia": "Educación Virgen",
@@ -1080,7 +1176,7 @@
     "pk": 77,
     "fields": {
         "nombre_obra": "Virgen de la faja",
-        "autor": "Alonso Miguel de Tobar",
+        "autor": 6,
         "anno": "XVII-XVIII",
         "ubicacion": "Museo de Cádiz",
         "iconografia": "Virgen de la faja",
@@ -1099,7 +1195,7 @@
     "pk": 78,
     "fields": {
         "nombre_obra": "San Joaquín, santa Ana y la Virgen",
-        "autor": "Andrés Pérez de Pineda",
+        "autor": 11,
         "anno": "XVII-XVIII",
         "ubicacion": "Museo de Bellas Artes, Córdoba",
         "iconografia": "Educación de la Virgen con sus padres",
@@ -1112,472 +1208,6 @@
             3,
             7
         ]
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 1,
-    "fields": {
-        "name": "Can add estilo",
-        "content_type": 1,
-        "codename": "add_estilo"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 2,
-    "fields": {
-        "name": "Can change estilo",
-        "content_type": 1,
-        "codename": "change_estilo"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 3,
-    "fields": {
-        "name": "Can delete estilo",
-        "content_type": 1,
-        "codename": "delete_estilo"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 4,
-    "fields": {
-        "name": "Can view estilo",
-        "content_type": 1,
-        "codename": "view_estilo"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 5,
-    "fields": {
-        "name": "Can add tipo de obra",
-        "content_type": 2,
-        "codename": "add_tipodeobra"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 6,
-    "fields": {
-        "name": "Can change tipo de obra",
-        "content_type": 2,
-        "codename": "change_tipodeobra"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 7,
-    "fields": {
-        "name": "Can delete tipo de obra",
-        "content_type": 2,
-        "codename": "delete_tipodeobra"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 8,
-    "fields": {
-        "name": "Can view tipo de obra",
-        "content_type": 2,
-        "codename": "view_tipodeobra"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 9,
-    "fields": {
-        "name": "Can add trabajo representado",
-        "content_type": 3,
-        "codename": "add_trabajorepresentado"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 10,
-    "fields": {
-        "name": "Can change trabajo representado",
-        "content_type": 3,
-        "codename": "change_trabajorepresentado"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 11,
-    "fields": {
-        "name": "Can delete trabajo representado",
-        "content_type": 3,
-        "codename": "delete_trabajorepresentado"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 12,
-    "fields": {
-        "name": "Can view trabajo representado",
-        "content_type": 3,
-        "codename": "view_trabajorepresentado"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 13,
-    "fields": {
-        "name": "Can add obra",
-        "content_type": 4,
-        "codename": "add_obra"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 14,
-    "fields": {
-        "name": "Can change obra",
-        "content_type": 4,
-        "codename": "change_obra"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 15,
-    "fields": {
-        "name": "Can delete obra",
-        "content_type": 4,
-        "codename": "delete_obra"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 16,
-    "fields": {
-        "name": "Can view obra",
-        "content_type": 4,
-        "codename": "view_obra"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 17,
-    "fields": {
-        "name": "Can add log entry",
-        "content_type": 5,
-        "codename": "add_logentry"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 18,
-    "fields": {
-        "name": "Can change log entry",
-        "content_type": 5,
-        "codename": "change_logentry"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 19,
-    "fields": {
-        "name": "Can delete log entry",
-        "content_type": 5,
-        "codename": "delete_logentry"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 20,
-    "fields": {
-        "name": "Can view log entry",
-        "content_type": 5,
-        "codename": "view_logentry"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 21,
-    "fields": {
-        "name": "Can add permission",
-        "content_type": 6,
-        "codename": "add_permission"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 22,
-    "fields": {
-        "name": "Can change permission",
-        "content_type": 6,
-        "codename": "change_permission"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 23,
-    "fields": {
-        "name": "Can delete permission",
-        "content_type": 6,
-        "codename": "delete_permission"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 24,
-    "fields": {
-        "name": "Can view permission",
-        "content_type": 6,
-        "codename": "view_permission"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 25,
-    "fields": {
-        "name": "Can add group",
-        "content_type": 7,
-        "codename": "add_group"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 26,
-    "fields": {
-        "name": "Can change group",
-        "content_type": 7,
-        "codename": "change_group"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 27,
-    "fields": {
-        "name": "Can delete group",
-        "content_type": 7,
-        "codename": "delete_group"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 28,
-    "fields": {
-        "name": "Can view group",
-        "content_type": 7,
-        "codename": "view_group"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 29,
-    "fields": {
-        "name": "Can add user",
-        "content_type": 8,
-        "codename": "add_user"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 30,
-    "fields": {
-        "name": "Can change user",
-        "content_type": 8,
-        "codename": "change_user"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 31,
-    "fields": {
-        "name": "Can delete user",
-        "content_type": 8,
-        "codename": "delete_user"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 32,
-    "fields": {
-        "name": "Can view user",
-        "content_type": 8,
-        "codename": "view_user"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 33,
-    "fields": {
-        "name": "Can add content type",
-        "content_type": 9,
-        "codename": "add_contenttype"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 34,
-    "fields": {
-        "name": "Can change content type",
-        "content_type": 9,
-        "codename": "change_contenttype"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 35,
-    "fields": {
-        "name": "Can delete content type",
-        "content_type": 9,
-        "codename": "delete_contenttype"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 36,
-    "fields": {
-        "name": "Can view content type",
-        "content_type": 9,
-        "codename": "view_contenttype"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 37,
-    "fields": {
-        "name": "Can add session",
-        "content_type": 10,
-        "codename": "add_session"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 38,
-    "fields": {
-        "name": "Can change session",
-        "content_type": 10,
-        "codename": "change_session"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 39,
-    "fields": {
-        "name": "Can delete session",
-        "content_type": 10,
-        "codename": "delete_session"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 40,
-    "fields": {
-        "name": "Can view session",
-        "content_type": 10,
-        "codename": "view_session"
-    }
-},
-{
-    "model": "auth.user",
-    "pk": 1,
-    "fields": {
-        "password": "pbkdf2_sha256$390000$IBVob4NcBqk8vBgGxOFJe1$dtVmO+XpCSuxY5L1yoU/LEi/AkRv+N7Hyrbo/efBFjM=",
-        "last_login": "2022-10-25T20:18:59.652Z",
-        "is_superuser": true,
-        "username": "maria",
-        "first_name": "",
-        "last_name": "",
-        "email": "",
-        "is_staff": true,
-        "is_active": true,
-        "date_joined": "2022-10-25T20:18:53.263Z",
-        "groups": [],
-        "user_permissions": []
-    }
-},
-{
-    "model": "contenttypes.contenttype",
-    "pk": 1,
-    "fields": {
-        "app_label": "trama",
-        "model": "estilo"
-    }
-},
-{
-    "model": "contenttypes.contenttype",
-    "pk": 2,
-    "fields": {
-        "app_label": "trama",
-        "model": "tipodeobra"
-    }
-},
-{
-    "model": "contenttypes.contenttype",
-    "pk": 3,
-    "fields": {
-        "app_label": "trama",
-        "model": "trabajorepresentado"
-    }
-},
-{
-    "model": "contenttypes.contenttype",
-    "pk": 4,
-    "fields": {
-        "app_label": "trama",
-        "model": "obra"
-    }
-},
-{
-    "model": "contenttypes.contenttype",
-    "pk": 5,
-    "fields": {
-        "app_label": "admin",
-        "model": "logentry"
-    }
-},
-{
-    "model": "contenttypes.contenttype",
-    "pk": 6,
-    "fields": {
-        "app_label": "auth",
-        "model": "permission"
-    }
-},
-{
-    "model": "contenttypes.contenttype",
-    "pk": 7,
-    "fields": {
-        "app_label": "auth",
-        "model": "group"
-    }
-},
-{
-    "model": "contenttypes.contenttype",
-    "pk": 8,
-    "fields": {
-        "app_label": "auth",
-        "model": "user"
-    }
-},
-{
-    "model": "contenttypes.contenttype",
-    "pk": 9,
-    "fields": {
-        "app_label": "contenttypes",
-        "model": "contenttype"
-    }
-},
-{
-    "model": "contenttypes.contenttype",
-    "pk": 10,
-    "fields": {
-        "app_label": "sessions",
-        "model": "session"
-    }
-},
-{
-    "model": "sessions.session",
-    "pk": "hj600eg3x6vzco9uiaf6ydq5k5gx4r5g",
-    "fields": {
-        "session_data": ".eJxVjDsOgzAQRO_iOrL8A5aU6TmD5V0vMUlkSxiqKHcPliiScua9mbfwYd-S3yuvfoniKrS4_HYY6Mm5gfgI-V4klbytC8qmyJNWOZXIr9vp_h2kUNOxhh5pdoQWUM2aEAi7aAFcz1E7NRhjqYXDgi6yNsyDAtTMgUcyo_h8AQIWOMg:1onQO3:m7b39TP0nzAwlq6Li9_yLV8NngSulFau-orUBwXXbTQ",
-        "expire_date": "2022-11-08T20:18:59.653Z"
     }
 }
 ]

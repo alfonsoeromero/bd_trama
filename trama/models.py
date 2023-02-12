@@ -40,10 +40,13 @@ class Autor(models.Model):
         null=False,
         help_text="Autor de la obra")
     alias = models.CharField(max_length=256,
-        blank=False,
+        blank=True,
         null=True,
         help_text="Alias u otros nombres por los que el artista es conocido"
     )
+
+    def __str__(self):
+        return self.nombre
 
 
 class Obra(models.Model):

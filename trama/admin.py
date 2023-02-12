@@ -1,9 +1,10 @@
 from django.contrib import admin
 
-from .models import Estilo, Obra, TipoDeObra, TrabajoRepresentado
+from .models import Autor, Estilo, Obra, TipoDeObra, TrabajoRepresentado
 
 # Register your models here.
 
+admin.site.register(Autor)
 admin.site.register(Obra)
 admin.site.register(TrabajoRepresentado)
 admin.site.register(TipoDeObra)

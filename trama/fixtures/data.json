@@ -320,6 +320,22 @@
     }
 },
 {
+    "model": "trama.autor",
+    "pk": 13,
+    "fields": {
+        "nombre": "José Risueño",
+        "alias": null
+    }
+},
+{
+    "model": "trama.autor",
+    "pk": 14,
+    "fields": {
+        "nombre": "Alejo Fernández",
+        "alias": null
+    }
+},
+{
     "model": "trama.obra",
     "pk": 3,
     "fields": {
@@ -1207,6 +1223,102 @@
         "trabajo_representado": [
             3,
             7
+        ]
+    }
+},
+{
+    "model": "trama.obra",
+    "pk": 79,
+    "fields": {
+        "nombre_obra": "Santa Teresa de Jesús en su celda inspirada por el Espíritu Santo",
+        "autor": 13,
+        "anno": "1695",
+        "ubicacion": "Colección particular (Córdoba)",
+        "iconografia": "Santa Teresa",
+        "descripcion": "La figura de la santa de Ávila aparece representada en acto de recibir la inspiración del Espíritu Santo para escribir una de sus obras, con el cuerpo girado, la cabeza hacia lo alto y sentada en un sillón frailero a la mesa, donde reposan un tintero con una pluma, una cuchilla y una calavera sobre un libro.",
+        "url_externa": "https://www.artnet.com/artists/jose-risueno/santa-teresa-de-jes%C3%BAs-en-su-celda-inspirada-por-ola3utqakyu0tgqwGrjb9g2",
+        "url_imagen": "https://www.artnet.com/WebServices/images/ll00113lldzq0GFgKQECfDrCWvaHBOcQmvD/jose-risueno-santa-teresa-de-jes%C3%BAs-en-su-celda-inspirada-por-el-esp%C3%ADritu-santo.jpg",
+        "estilo": 1,
+        "tipo_de_obra": 0,
+        "trabajo_representado": [
+            12
+        ]
+    }
+},
+{
+    "model": "trama.obra",
+    "pk": 80,
+    "fields": {
+        "nombre_obra": "Santa Teresa escritora",
+        "autor": 13,
+        "anno": "1700",
+        "ubicacion": "Úbeda. Museo de San Juan de la Cruz. Padres Carmelitas Descalzos",
+        "iconografia": "Santa Teresa",
+        "descripcion": "Talla en madera policromada representando a Santa Teresa sujetando una pluma sentada, mientras escribe sobre una mesa.",
+        "url_externa": "https://sanjuandelacruzubeda.com/index.php?option=com_k2&view=item&id=7:sala-vi-coro-alto-de-san-miguel&Itemid=147&lang=es",
+        "url_imagen": "https://sanjuandelacruzubeda.com/media/k2/items/cache/9caa2793658f3cc387f216157300b1ce_XL.jpg",
+        "estilo": 1,
+        "tipo_de_obra": 1,
+        "trabajo_representado": [
+            12
+        ]
+    }
+},
+{
+    "model": "trama.obra",
+    "pk": 81,
+    "fields": {
+        "nombre_obra": "Cristo y la Samaritana",
+        "autor": 9,
+        "anno": "1635-1637",
+        "ubicacion": "Real Academia de Bellas Artes de San Fernando, Madrid.",
+        "iconografia": "Cristo y la Samaritana",
+        "descripcion": "La obra representa un pasaje del Nuevo Testamento recogido en el capítulo 4 de Juan. Es un lienzo bellísimo en que el maestro granadino, partiendo de una estampa del pintor holandés Saenredam, recoge a la vez lo mejor de la pintura renacentista veneciana. En un fondo de paisaje con celajes de tonos azules y grises, la samaritana apoya su cántaro en el brocal del pozo mientras escucha a Cristo.",
+        "url_externa": "https://www.academiacolecciones.com/pinturas/inventario.php?id=0548",
+        "url_imagen": "https://www.academiacolecciones.com/pinturas/server/files/medium/0548.jpg",
+        "estilo": 1,
+        "tipo_de_obra": 0,
+        "trabajo_representado": [
+            16
+        ]
+    }
+},
+{
+    "model": "trama.obra",
+    "pk": 82,
+    "fields": {
+        "nombre_obra": "Moisés haciendo brotar el agua de la roca de Horeb",
+        "autor": 2,
+        "anno": "1667-1680",
+        "ubicacion": "Iglesia del Hospital de la Santa Caridad, Sevilla.",
+        "iconografia": "Moisés y pueblo judío",
+        "descripcion": "Representa la escena bíblica del Éxodo donde Moisés hace brotar agua del Monte Horeb tras golpearlo con su cayado. Entre otras figuras, la escena representa varias mujeres y niñas cargando de agua sus recipientes y dando de beber a otros personajes.",
+        "url_externa": "https://www.iaph.es/juega-con-murillo/moises-agua-horeb.html",
+        "url_imagen": "https://www.iaph.es/juega-con-murillo/img/hospital-caridad/hc02.jpg",
+        "estilo": 1,
+        "tipo_de_obra": 0,
+        "trabajo_representado": [
+            16
+        ]
+    }
+},
+{
+    "model": "trama.obra",
+    "pk": 83,
+    "fields": {
+        "nombre_obra": "El nacimiento de la Virgen María",
+        "autor": 14,
+        "anno": "1508-1512",
+        "ubicacion": "Sacristía de los Cálices, Catedral de Sevilla, Sevilla",
+        "iconografia": "Nacimiento de María",
+        "descripcion": "La obra, un óleo sobre tabla, representa el momento en que el Santa Ana da a luz a María. Dos mujeres portando utensilios (una bandeja y un paño) aparecen ayudando a la parturienta, mientras una segunda presenta la hija a San Joaquín.",
+        "url_externa": "https://www.artehistoria.com/es/obra/nacimiento-de-la-virgen-3",
+        "url_imagen": "https://upload.wikimedia.org/wikipedia/commons/8/8c/El_Nacimiento_de_la_Virgen_Mar%C3%ADa%2C_de_Alejo_Fern%C3%A1ndez_%28Catedral_de_Sevilla%29.jpg",
+        "estilo": 0,
+        "tipo_de_obra": 0,
+        "trabajo_representado": [
+            14,
+            17
         ]
     }
 }

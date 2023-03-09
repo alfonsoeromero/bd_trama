@@ -224,6 +224,13 @@
     }
 },
 {
+    "model": "trama.trabajorepresentado",
+    "pk": 23,
+    "fields": {
+        "nombre_trabajo": "Música"
+    }
+},
+{
     "model": "trama.autor",
     "pk": 1,
     "fields": {
@@ -332,6 +339,54 @@
     "pk": 14,
     "fields": {
         "nombre": "Alejo Fernández",
+        "alias": null
+    }
+},
+{
+    "model": "trama.autor",
+    "pk": 15,
+    "fields": {
+        "nombre": "Discípulo de Bartolomé Esteban Murillo",
+        "alias": null
+    }
+},
+{
+    "model": "trama.autor",
+    "pk": 16,
+    "fields": {
+        "nombre": "José de Ribera",
+        "alias": null
+    }
+},
+{
+    "model": "trama.autor",
+    "pk": 17,
+    "fields": {
+        "nombre": "Juan de Valdés Leal",
+        "alias": null
+    }
+},
+{
+    "model": "trama.autor",
+    "pk": 18,
+    "fields": {
+        "nombre": "Domingo Martínez",
+        "alias": null
+    }
+},
+{
+    "model": "trama.autor",
+    "pk": 19,
+    "fields": {
+        "nombre": "Juan de Roelas",
+        "alias": null
+    }
+},
+{
+    "model": "trama.autor",
+    "pk": 21,
+    "fields": {
+        "nombre": "Juan del Espinal",
         "alias": null
     }
 },
@@ -1319,6 +1374,159 @@
         "trabajo_representado": [
             14,
             17
+        ]
+    }
+},
+{
+    "model": "trama.obra",
+    "pk": 84,
+    "fields": {
+        "nombre_obra": "Virgen niña hilando",
+        "autor": 10,
+        "anno": "1710",
+        "ubicacion": "Colección particular",
+        "iconografia": "Virgen hilando",
+        "descripcion": "La Virgen, sentada e hilando con rueca y huso, viste rico ropaje a la usanza de la época, con un ligero tocado y hermoso corpiño rojo. Al fondo, aparece un rompimiento de gloria que rodea la figura de la Virgen, formado por cabezas de ángeles.\r\n\r\nIconográficamente, se inspira en los evangelios apócrifos. En el Protoevangelio de Santiago se narra cómo los sacerdotes del templo de Jerusalen encargaron a la Virgen niña hacer el velo del templo, premonizando la Pasión de Cristo al desgarrarse dicho velo cuando murió Jesús. El Evangelio del Pseudo-Mateo recoge la maestría que tenía la Virgen en su juventud con las labores de lana.",
+        "url_externa": null,
+        "url_imagen": "https://upload.wikimedia.org/wikipedia/commons/a/ad/The_Child_Virgin_Spinning_by_Juan_Sim%C3%B3n_Guti%C3%A9rrez.jpg",
+        "estilo": 1,
+        "tipo_de_obra": 0,
+        "trabajo_representado": [
+            15
+        ]
+    }
+},
+{
+    "model": "trama.obra",
+    "pk": 85,
+    "fields": {
+        "nombre_obra": "La cocinera",
+        "autor": 15,
+        "anno": "Segunda mitad del siglo XVII",
+        "ubicacion": "Museo del Prado",
+        "iconografia": "Mujer en cocina",
+        "descripcion": "Escena de la vida doméstica donde se puede observar a una mujer en la cocina, con un gato, un perro, rodeada de enseres de cocina y varios recipientes al fuego.",
+        "url_externa": "https://www.museodelprado.es/coleccion/obra-de-arte/la-cocinera/48276980-8059-49ff-8713-0c9b85ab3cee",
+        "url_imagen": "https://content3.cdnprado.net/imagenes/Documentos/imgsem/48/4827/48276980-8059-49ff-8713-0c9b85ab3cee/be5a8bd6-55ad-4a72-9320-918e327f06a6.jpg",
+        "estilo": 1,
+        "tipo_de_obra": 0,
+        "trabajo_representado": [
+            10
+        ]
+    }
+},
+{
+    "model": "trama.obra",
+    "pk": 86,
+    "fields": {
+        "nombre_obra": "Santa Rufina",
+        "autor": 10,
+        "anno": "XVII-XVIII",
+        "ubicacion": "Colección particular",
+        "iconografia": "Santa Rufina",
+        "descripcion": "Se muestra a Santa Rufina, patrona de Sevilla, con un cántaro, del mismo tipo de la Santa Rufina original de Murillo.",
+        "url_externa": "https://www.sothebys.com/en/buy/auction/2020/old-master-paintings-day-sale/santa-rufina",
+        "url_imagen": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Santa_Rufina_.jpg",
+        "estilo": 1,
+        "tipo_de_obra": 0,
+        "trabajo_representado": [
+            5
+        ]
+    }
+},
+{
+    "model": "trama.obra",
+    "pk": 87,
+    "fields": {
+        "nombre_obra": "Santa Teresa de Jesús",
+        "autor": 16,
+        "anno": "1630",
+        "ubicacion": "Museo de Bellas Artes de Sevilla",
+        "iconografia": "Santa Teresa escribiendo",
+        "descripcion": "https://artsandculture.google.com/asset/santa-teresa/MgGWAsg0lHyHeQ?hl=es",
+        "url_externa": "https://www.flickr.com/photos/rmunoz_yeti/20959895621/in/photostream/",
+        "url_imagen": "https://live.staticflickr.com/3715/11450282176_56c9646900_b.jpg",
+        "estilo": 1,
+        "tipo_de_obra": 0,
+        "trabajo_representado": [
+            12
+        ]
+    }
+},
+{
+    "model": "trama.obra",
+    "pk": 88,
+    "fields": {
+        "nombre_obra": "Las tentaciones de San Jerónimo",
+        "autor": 17,
+        "anno": "1657",
+        "ubicacion": "Museo de Bellas Artes de Sevilla",
+        "iconografia": "San Jerónimo siendo tentado",
+        "descripcion": "Las tentaciones de San Jerónimo está considerada como una de las mejores versiones de este tema de la pintura barroca europea.En este cuadro, la energía moral en el rechazo de la tentación se traslada a la técnica, decidida, de pincelada enérgica y fogoso colorido que, no obstante, describe con acierto los detalles.\r\n\r\nPertenece a una serie de 18 lienzos, pintados hacia 1657 por Juan Valdés Leal, en los que se narran episodios de la vida de San Jerónimo y se ensalza la historia de su orden monástica, con la presentación de sus principales miembros. El conjunto se realizó para decorar la sacristía del convento sevillano de San Jerónimo de Buenavista.",
+        "url_externa": "https://www.flickr.com/photos/rmunoz_yeti/20952476945/in/photostream/",
+        "url_imagen": "https://www.museosdeandalucia.es/image/journal/article?img_id=169776517",
+        "estilo": 1,
+        "tipo_de_obra": 0,
+        "trabajo_representado": [
+            23
+        ]
+    }
+},
+{
+    "model": "trama.obra",
+    "pk": 89,
+    "fields": {
+        "nombre_obra": "Carros del Víctor y del Parnaso",
+        "autor": 18,
+        "anno": "1748",
+        "ubicacion": "Museo de Bellas Artes de Sevilla",
+        "iconografia": "Alegoría del Parnaso",
+        "descripcion": "La figura de Domingo Martínez destaca dentro del panorama artístico sevillano de la primera mitad del siglo XVIII como exponente de la transición entre el espíritu artístico de Murillo y las nuevas corrientes europeas.\r\n\r\nEsta pintura pertenece a una serie de ocho lienzos que representan los carros triunfales que desfilaron en Sevilla en la Máscara que los obreros de la Real Fábrica de Tabacos organizaron con motivo de la exaltación al trono de Fernando VI y Bárbara de Braganza, en 1747. Estos cuadros fueron pintados para ilustrar el libro que sobre esta fiesta publicó Cansino Casafonda en 1748. \r\n\r\nEste era el último cuadro del cortejo, en el que se exhibían los retratos del nuevo monarca y de su mujer Bárbara de Braganza, escoltados por personal uniformado de la Fábrica de Tabacos a caballo, a los que preceden figuras de reyes representando los diferentes reinos del país a caballo portando sus emblemas. En la parte delantera del carro se distingue a Apolo, protector de las musas, rodeado de  ellas y ostentando sus atributos  y tras él desfilaban varios dependientes de la Fábrica de Tabacos presididos por su director D. José Antonio de Losada. Escoltan el carro un grupo de guardias de corps a caballo y tres carrozas. \r\n\r\nSe trata del de mayor importancia simbólica ya que presenta al nuevo rey como protector de la actividad artística. Desvela lo que constituía el sentido alegórico del cortejo: la demostración de lealtad de la ciudad y de la fábrica de Tabacos al nuevo monarca. Por ello adquiere un profundo sentido el hecho de mostrar en la carroza sus retratos, que serán entregados al Ayuntamiento, representante de la autoridad real como recoge el último de los cuadros de la serie. Se ve el edificio del Ayuntamiento con una fisonomía distinta a la actual.\r\n\r\nDe: https://www.museosdeandalucia.es/web/museodebellasartesdesevilla/obras-singulares/-/asset_publisher/GRnu6ntjtLfp/content/carros-del-victor-y-del-parnaso-carro-de-la-entrega-de-los-retratos-de-los-reyes-al-ayuntamiento-?inheritRedirect=true",
+        "url_externa": "https://www.flickr.com/photos/rmunoz_yeti/20764431170/in/photostream/",
+        "url_imagen": "https://www.museosdeandalucia.es/image/journal/article?img_id=63543679",
+        "estilo": 1,
+        "tipo_de_obra": 0,
+        "trabajo_representado": [
+            23
+        ]
+    }
+},
+{
+    "model": "trama.obra",
+    "pk": 90,
+    "fields": {
+        "nombre_obra": "Santa Ana enseñando a leer a la Virgen",
+        "autor": 19,
+        "anno": "Hacia 1610",
+        "ubicacion": "Museo de Bellas Artes de Sevilla",
+        "iconografia": "Santa Ana y la Virgen María",
+        "descripcion": "El tema de Santa Ana se inspira en los Evangelios Apócrifos y, aunque su devoción no estuvo muy extendida, experimentó un resurgimiento en los siglos XVII y XVIII en su representación de maestra, tanto por su dimensión intimista como por el modelo de santificación del aprendizaje buscado por la sociedad ilustrada.\r\n\r\nEl esquema compositivo de esta obra, en diagonal, presenta la figura sedente de Santa Ana, de edad madura, presentando un libro a la Virgen Niña que se inclina atenta para su lectura. María aparece ricamente vestida con túnica rosa bordada en oro y piedras preciosas y manto azul con perlas y estrellas. Se adorna también con joyas como la corona, pendientes, anillo y collar, atributos de una belleza exterior espejo de la espiritual. En la estancia se observan detalles propios de un ambiente doméstico como la cesta con dulces sobre una mesa, un cajón entreabierto con encajes y labores bajo el que se encuentran un perro y un gato, una cesta de ovillos y un cojín de bordar. Se aprecian en esta obra las características propias de la pintura de Roelas: el gran aparato compositivo, los personajes que aparecen con gestos y sentimientos extraídos de la vida real y el colorido suntuoso de estirpe veneciana donde predominan los tonos cálidos y los matices brillantes. En la primera generación de pintores sevillanos del siglo XVII, Roelas representa la renovación naturalista que triunfará, basada en un lenguaje directo y narrativo.",
+        "url_externa": "https://www.museosdeandalucia.es/web/museodebellasartesdesevilla/obras-singulares/-/asset_publisher/GRnu6ntjtLfp/content/santa-ana-ensenando-a-leer-a-la-virgen",
+        "url_imagen": "https://www.museosdeandalucia.es/image/journal/article?img_id=89059573&t=1602676973117",
+        "estilo": 1,
+        "tipo_de_obra": 0,
+        "trabajo_representado": [
+            0,
+            3
+        ]
+    }
+},
+{
+    "model": "trama.obra",
+    "pk": 91,
+    "fields": {
+        "nombre_obra": "Llegada de la pintura a Sevilla/ Alegoría de la pintura sevillana",
+        "autor": 21,
+        "anno": "Mediados del siglo XVIII",
+        "ubicacion": "Real Academia de Bellas Artes de San Fernando, Madrid.",
+        "iconografia": "Alegoría de la Pintura",
+        "descripcion": "La obra es una alegoría de la llegada de la pintura a la ciudad de Sevilla, en España.",
+        "url_externa": "https://www.academiacolecciones.com/pinturas/inventario.php?id=0131",
+        "url_imagen": "https://www.academiacolecciones.com/pinturas/server/files/medium/0131.jpg",
+        "estilo": 1,
+        "tipo_de_obra": 0,
+        "trabajo_representado": [
+            22
         ]
     }
 }

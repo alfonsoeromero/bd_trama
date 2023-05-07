@@ -7,7 +7,7 @@
   {%if query %}
     <table class="table table-striped">
       <caption class="text-center">Consulta: <strong>'{{query}}'</strong>.
-        Número de obras encontradas:  <strong>{{query_result.count}}</strong></caption>
+        Número de obras encontradas:  <strong>{{query_result|length}}</strong></caption>
         <thead>
           <tr>
             <th>Id</th>

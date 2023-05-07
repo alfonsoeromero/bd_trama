@@ -13,15 +13,17 @@
             <th>Id</th>
             <th>Nombre de la obra</th>
             <th>Autor</th>
+            <th>Relevancia</th>
             <th>Ir a detalle</th>
           </tr>
         </thead>
         <tbody>
-          {% for obra in query_result.all %}
+          {% for obra, score in query_result %}
       <tr>
         <td>{{obra.id}}</td>
         <td><em>{{obra.nombre_obra}}</em></td>
         <td>{{obra.autor}}</td>
+        <td>{{score}}%</td>
         <td><a href="{% url 'detalle_obra' obra.pk %}" alt="Mostrar detalle"><i class="bi bi-search"></i></a></td>
       </tr>
     {% endfor %}</tbody>

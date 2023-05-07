@@ -44,7 +44,8 @@
                     </tr>
                     <tr>
                         <td scope="row"><strong>Estilo</strong></td>
-                        <td scope="row">{{obra.estilo.nombre_estilo}}</td>
+                        <td scope="row">{{obra.estilo.nombre_estilo}}
+                        <a href="{% url 'search_result' %}?query={{obra.estilo.nombre_estilo}}"><i class="bi bi-binoculars"></i></a></td>
                     </tr>
                     <tr>
                         <td scope="row"><strong>Iconografía</strong></td>

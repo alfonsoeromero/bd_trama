@@ -28,6 +28,7 @@
                         {% block tab_buscador %}<li class="nav-item"><a class="nav-link" href="{% url 'search' %}"><i class="bi bi-binoculars"><!-- --></i> Buscador</a></li>{% endblock %}
                         {% block tab_listado %}<li class="nav-item"><a class="nav-link" href="{% url 'listado' %}"><i class="bi bi-card-list"><!-- --></i> Obras</a></li>{% endblock %}
                         {% block tab_autores %}<li class="nav-item"><a class="nav-link" href="{% url 'listado_autores' %}"><i class="bi bi-palette"><!-- --></i> Autores</a></li>{% endblock %}
+                        {% block tab_trabajos %}<li class="nav-item"><a class="nav-link" href="{% url 'listado_trabajos' %}"><i class="bi bi-tools"><!-- --></i> Trabajos</a></li>{% endblock %}
                         {% block tab_admin %}<li class="nav-item"><a class="nav-link" href="{% url 'admin:index' %}"><i class="bi bi-lock"><!-- --></i> Admin</a></li>{% endblock %}
                         {% block tab_acerca %}<li class="nav-item"><a class="nav-link" href="{% url 'acerca' %}"><i class="bi bi-book"><!-- --></i> Acerca de</a></li>{% endblock %}                    
                     </ul>

@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block texto_barra %}Listado completo de trabajos{% endblock %}
+
+{% block content %}
+    <table class="table table-striped table-hover">
+      <caption>Número de trabajos representados en la base de datos: <strong>{{trabajos.count}}</strong>.</caption>
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Nombre del trabajo</th>
+        <th>Nº de obras en la base de datos</th>
+        <th>Porcentaje</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for trabajo in trabajos %}
+    <tr>
+      <td>{{forloop.counter}}</td>
+      <td>{{trabajo.nombre_trabajo}} <a href="{% url 'search_result' %}?query={{trabajo.nombre_trabajo}}"><i class="bi bi-binoculars"></i></a></td>
+      <td>{{trabajo.num_obras}}</td>
+      <td>{{trabajo.perc}}%</td>
+    </tr>
+
+    {% endfor %}
+    </tbody>
+    </table>
+
+{% endblock %}
+

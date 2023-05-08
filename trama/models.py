@@ -7,7 +7,7 @@ class Estilo(models.Model):
         blank=False,
         null=False,
         help_text="Nombre del estilo artítico (Renacimiento, barroco, etc.)")
-    
+
     def __str__(self):
         return self.nombre_estilo
 
@@ -18,7 +18,7 @@ class TipoDeObra(models.Model):
         blank=False,
         null=False,
         help_text="Tipo de obra: Pintura, Escultura,...")
-    
+
     def __str__(self):
         return self.nombre_tipo
 
@@ -29,21 +29,21 @@ class TrabajoRepresentado(models.Model):
         blank=False,
         null=False,
         help_text="Nombre de la profesión representada (hilandera, curandera,...)")
-    
+
     def __str__(self):
         return self.nombre_trabajo
 
 
 class Autor(models.Model):
     nombre = models.CharField(max_length=256,
-        blank=False,
-        null=False,
-        help_text="Autor de la obra")
+                              blank=False,
+                              null=False,
+                              help_text="Autor de la obra")
     alias = models.CharField(max_length=256,
-        blank=True,
-        null=True,
-        help_text="Alias u otros nombres por los que el artista es conocido"
-    )
+                             blank=True,
+                             null=True,
+                             help_text="Alias u otros nombres por los que el artista es conocido"
+                             )
 
     def __str__(self):
         return self.nombre
@@ -61,32 +61,32 @@ class Obra(models.Model):
         null=False,
         on_delete=models.CASCADE)
     anno = models.CharField("Año o época aproximada de la obra",
-        max_length=64,
-        blank=False,
-        null=False,
-        help_text="Año (exacto o aproximado) de creación de la obra")
+                            max_length=64,
+                            blank=False,
+                            null=False,
+                            help_text="Año (exacto o aproximado) de creación de la obra")
     ubicacion = models.CharField("Ubicación",
-        max_length=128,
-        blank=False,
-        null=False,
-        help_text="Ubicación de la obra (museo, colección particular...)")
+                                 max_length=128,
+                                 blank=False,
+                                 null=False,
+                                 help_text="Ubicación de la obra (museo, colección particular...)")
     iconografia = models.CharField("Iconografía",
-        max_length=128,
-        blank=False,
-        null=False,
-        help_text="Breve descripción de la iconografía representada")
+                                   max_length=128,
+                                   blank=False,
+                                   null=False,
+                                   help_text="Breve descripción de la iconografía representada")
     descripcion = models.TextField("Descripción",
-        blank=False,
-        null=False,
-        help_text="Descripción de la obra en texto libre")
+                                   blank=False,
+                                   null=False,
+                                   help_text="Descripción de la obra en texto libre")
     url_externa = models.CharField(max_length=512,
-        blank=True,
-        null=True,
-        help_text="URL con contexto")
+                                   blank=True,
+                                   null=True,
+                                   help_text="URL con contexto")
     url_imagen = models.CharField(max_length=512,
-        blank=True,
-        null=True,
-        help_text="URL externa del archivo de imagen (si la hay)")
+                                  blank=True,
+                                  null=True,
+                                  help_text="URL externa del archivo de imagen (si la hay)")
     estilo = models.ForeignKey(
         Estilo,
         blank=False,

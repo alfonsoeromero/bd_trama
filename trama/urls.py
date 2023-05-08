@@ -22,6 +22,10 @@ urlpatterns = [
     re_path(r"^listado_autores/$", views.listado_autores,
             name="listado_autores"),
 
+    # 4 tris.- listado de trabajos de la BD (sin parámetros de búsqueda)
+    re_path(r"^trabajos/$", views.listado_trabajos,
+            name="listado_trabajos"),
+
     # 5.- "acerca de", página estática
     re_path(r"^acerca/$", views.acerca, name="acerca"),
 

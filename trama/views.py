@@ -1,7 +1,8 @@
 from django.core.paginator import Paginator
+from django.db.models import Count
 from django.shortcuts import get_object_or_404, render
 
-from trama.models import Autor, Obra
+from trama.models import Autor, Obra, TrabajoRepresentado
 from trama.utils.buscador import Buscador
 
 
@@ -61,3 +62,13 @@ def acerca(request):
 def obra(request, obra_id):
     obra = get_object_or_404(Obra, pk=obra_id)
     return render(request, "obra.html", {"obra": obra})
+
+
+def listado_trabajos(request):
+    num_obras = len(Obra.objects.all())
+    trabajos = TrabajoRepresentado.objects.annotate(
+        num_obras=Count('obra')
+    ).annotate(perc=100*Count('obra') / num_obras
+               ).filter(num_obras__gt=0).order_by("-num_obras")
+    return render(request, "listado_trabajos.html",
+                  {"trabajos": trabajos})

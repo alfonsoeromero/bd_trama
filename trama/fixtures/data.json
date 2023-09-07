@@ -248,7 +248,7 @@
     "model": "trama.trabajorepresentado",
     "pk": 25,
     "fields": {
-        "nombre_trabajo": "Lechera/ordeño"
+        "nombre_trabajo": "Tareas con animales"
     }
 },
 {
@@ -263,6 +263,13 @@
     "pk": 27,
     "fields": {
         "nombre_trabajo": "Prostitución?"
+    }
+},
+{
+    "model": "trama.trabajorepresentado",
+    "pk": 28,
+    "fields": {
+        "nombre_trabajo": "Producción de alimentos"
     }
 },
 {
@@ -498,6 +505,22 @@
     }
 },
 {
+    "model": "trama.autor",
+    "pk": 31,
+    "fields": {
+        "nombre": "Antonio Mohedano",
+        "alias": "Antonio Mohedano"
+    }
+},
+{
+    "model": "trama.autor",
+    "pk": 32,
+    "fields": {
+        "nombre": "Francisco Meneses Osorio",
+        "alias": "Francisco Meneses Osorio"
+    }
+},
+{
     "model": "trama.obra",
     "pk": 3,
     "fields": {
@@ -564,13 +587,14 @@
         "anno": "1672",
         "ubicacion": "glesia de San Jorge (Hospital de la Caridad)",
         "iconografia": "Santa Isabel de Hungría cura a tiñosos",
-        "descripcion": "Óleo sobre lienzo. encargo de Miguel de Mañara, para la decoración de la iglesia de San Jorge del Hospital de la Hermandad de la Caridad de Sevilla. En el lienzo se representa a Santa Isabel de Hungría ayudada por unas damas, mientras vierte agua sobre la cabeza de un niño que se encuentra afectado de tiña cápitis. Santa Isabel de Hungría (1207-1231) era una mujer de ascendencia noble, hija del rey Andrés II de Hungría, tras quedar viuda en el año 1227 dedicó su vida a la religión y a socorrer a los enfermos y necesitados. Ordenó la construcción de un hospital en la ciudad de Marburgo en el que ella misma atendía a los pacientes",
-        "url_externa": "https://www.iaph.es/juega-con-murillo/santa-isabel-hungria.html",
+        "descripcion": "Óleo sobre lienzo. encargo de Miguel de Mañara, para la decoración de la iglesia de San Jorge del Hospital de la Hermandad de la Caridad de Sevilla. En el lienzo se representa a Santa Isabel de Hungría ayudada por unas damas, mientras vierte agua sobre la cabeza de un niño que se encuentra afectado de tiña cápitis. Al fondo, bajo un pórtico, puede contemplarse una segunda escena en la que también se representa a la Santa, pero esta vez en el acto de dar de comer a los pobres.\r\nSanta Isabel de Hungría (1207-1231) era una mujer de ascendencia noble, hija del rey Andrés II de Hungría, tras quedar viuda en el año 1227 dedicó su vida a la religión y a socorrer a los enfermos y necesitados. Ordenó la construcción de un hospital en la ciudad de Marburgo en el que ella misma atendía a los pacientes",
+        "url_externa": null,
         "url_imagen": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Santa_Isabel_de_Hungr%C3%ADa_curando_ti%C3%B1osos..jpg",
         "estilo": 1,
         "tipo_de_obra": 0,
         "trabajo_representado": [
-            14
+            14,
+            20
         ]
     }
 },
@@ -646,7 +670,8 @@
         "estilo": 1,
         "tipo_de_obra": 0,
         "trabajo_representado": [
-            3
+            3,
+            4
         ]
     }
 },
@@ -679,8 +704,8 @@
         "anno": "1670",
         "ubicacion": "Alte Pinakothek, Munich",
         "iconografia": "Vieja despiojando a un niño",
-        "descripcion": "Óleo sobre lienzo, 147,5 x 113 cm\nMujer y niño en un ambiente doméstico ha dejado su uso y rueca de hilar a un lado y quita piojos a un niño\n\n- Hilandera\n-Cuidadora",
-        "url_externa": "https://www.sammlung.pinakothek.de/en/artwork/ZKGPJE0xgA",
+        "descripcion": "Óleo sobre lienzo, 147,5 x 113 cm\r\nMujer y niño en un ambiente doméstico ha dejado su uso y rueca de hilar a un lado y quita piojos a un niño\r\n\r\n- Hilandera\r\n-Cuidadora",
+        "url_externa": null,
         "url_imagen": "https://upload.wikimedia.org/wikipedia/commons/2/29/Murillo_anciana_despiojando.jpg",
         "estilo": 1,
         "tipo_de_obra": 0,
@@ -781,7 +806,8 @@
         "estilo": 1,
         "tipo_de_obra": 0,
         "trabajo_representado": [
-            10
+            10,
+            28
         ]
     }
 },
@@ -809,18 +835,19 @@
     "model": "trama.obra",
     "pk": 23,
     "fields": {
-        "nombre_obra": "El patricio revela su sueño al papa Liberio",
+        "nombre_obra": "El sueño del patricio",
         "autor": 2,
         "anno": "1665",
         "ubicacion": "Museo del Prado",
         "iconografia": "sueño del patricio Juan y su esposa",
         "descripcion": "egún una antigua leyenda medieval, el origen de la mencionada iglesia matriz de Santa María de las Nieves de Roma, que tuvo lugar en el siglo IV durante el pontificado del papa Liberio. En aquella época vivía en la Ciudad Eterna un patricio llamado Juan que profesaba una gran devoción a la Virgen María, a la cual había decidido legar, de acuerdo con su esposa, al fallecimiento de ambos, todos sus bienes. Para ello, en numerosas ocasiones los dos esposos habían rogado a la Virgen que les enviase alguna señal o indicación de cómo debían formalizar la entrega de su fortuna para que se invirtiese en su culto. A este respecto la leyenda señala que un día, 5 de agosto, la Virgen se les apareció en sueños durante la noche para encomendarles, de acuerdo con sus intereses, que edificasen una iglesia en el monte Esquilino, en cuya cúspide encontrarían trazada con nieve la planta del templo",
-        "url_externa": "https://www.museodelprado.es/coleccion/obra-de-arte/fundacion-de-santa-maria-maggiore-de-roma-el/2c656ec2-4a1e-43a0-b26a-d67e1737b8d0",
-        "url_imagen": "https://upload.wikimedia.org/wikipedia/commons/4/43/El_patricio_revela_su_sue%C3%B1o_al_papa_Liberio.jpg",
+        "url_externa": null,
+        "url_imagen": "https://content3.cdnprado.net/imagenes/Documentos/imgsem/61/6149/61495770-ee6c-4983-ae38-2f2a87e002ce/dec9db2e-601b-47ec-a6d8-277b8e816f34_832.jpg",
         "estilo": 1,
         "tipo_de_obra": 0,
         "trabajo_representado": [
-            3
+            3,
+            4
         ]
     }
 },
@@ -833,7 +860,7 @@
         "anno": "1665",
         "ubicacion": "Norton Simon Museum",
         "iconografia": "Nacimiento de San Juan Bautista",
-        "descripcion": "Isabel, prima de la Virge en un ángulo en la cama tras el parto del niño. En el centro grupo de matronas, mujeres y amas lo limpian y cuidan",
+        "descripcion": "Isabel, prima de la Virgen en un ángulo en la cama tras el parto del niño. En el centro grupo de matronas, mujeres y amas lo limpian y cuidan",
         "url_externa": "https://www.nortonsimon.org/art/detail/F.1973.38.P",
         "url_imagen": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Murillo.Nacimiento_de_San_Juan_Bautista.JPG",
         "estilo": 1,
@@ -855,7 +882,7 @@
         "iconografia": "madonna con ángeles",
         "descripcion": "Virgen cambiando pañales al niño Jesús",
         "url_externa": null,
-        "url_imagen": null,
+        "url_imagen": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Bartolom%C3%A9_Esteban_Perez_Murillo_-_Mary_and_Child_with_Angels_Playing_Music_-_WGA16395.jpg",
         "estilo": 1,
         "tipo_de_obra": 0,
         "trabajo_representado": [
@@ -872,14 +899,15 @@
         "anno": "1670",
         "ubicacion": "Colección duque de Devonshire",
         "iconografia": "Sagrada familia con ángeles",
-        "descripcion": "scena en el taller de Nazareth, dotando de intimismo a la composición. María interrumpe su labor para levantar una ligera sábana que cubre al Niño dormido y contemplarle, lo mismo que hace san José que también descansa de su labor, sosteniendo en sus manos una pieza de madera y una azuela. Si no existiera la presencia de una pequeña corte de ángeles en la parte superior de la composición, el lienzo parecería una escena de carácter popular ya que los personajes no tienen ningún elemento que aluda a su divinidad",
+        "descripcion": "Escena en el taller de Nazareth, dotando de intimismo a la composición. María interrumpe su labor de costura para levantar una ligera sábana que cubre al Niño dormido y contemplarle, lo mismo que hace san José que también descansa de su labor, sosteniendo en sus manos una pieza de madera y una azuela. Si no existiera la presencia de una pequeña corte de ángeles en la parte superior de la composición, el lienzo parecería una escena de carácter popular ya que los personajes no tienen ningún elemento que aluda a su divinidad",
         "url_externa": null,
-        "url_imagen": null,
+        "url_imagen": "https://www.artehistoria.com/sites/default/files/styles/full_horizontal/public/imagenobra/MUS10702.jpg?ezimgfmt=ng%3Awebp%2Fngcb1%2Frs%3Adevice%2Frscb1-2&itok=ff50ooCU",
         "estilo": 1,
         "tipo_de_obra": 0,
         "trabajo_representado": [
             0,
-            3
+            3,
+            4
         ]
     }
 },
@@ -913,7 +941,7 @@
         "iconografia": "Virgen niña hilando",
         "descripcion": "Virgen niña sentada con uso y bobina hilando",
         "url_externa": null,
-        "url_imagen": null,
+        "url_imagen": "https://www.researchgate.net/profile/Jesus-Benavides-3/publication/352561340/figure/fig1/AS:1037080536809473@1624270676619/Virgen-nina-hilando-atrib-Juan-Ruiz-Soriano-coleccion-particular-Sevilla_W640.jpg",
         "estilo": 1,
         "tipo_de_obra": 0,
         "trabajo_representado": [
@@ -932,7 +960,7 @@
         "iconografia": "Sagrada Familia",
         "descripcion": "Sagrada familia en escena cotidiana, Virgen con su cesto de costura a los pies",
         "url_externa": null,
-        "url_imagen": null,
+        "url_imagen": "https://huelvabuenasnoticias.com/wp-content/uploads/2018/03/iaph.es-sagrada-familia.jpg",
         "estilo": 1,
         "tipo_de_obra": 0,
         "trabajo_representado": [
@@ -948,11 +976,11 @@
         "nombre_obra": "La bendición de Isaac a Jacob",
         "autor": 2,
         "anno": "1660",
-        "ubicacion": " Museo Estatal Del Hermitage",
+        "ubicacion": "Museo Estatal Del Hermitage",
         "iconografia": "Isaac bendice a Jacob",
         "descripcion": "Escena con dos ámbitos, interior donde sucede la escena y mujer cuida al enfermo. Fuera gentes sencillas trabajando, mujer lleva agua del río a la casa",
         "url_externa": null,
-        "url_imagen": null,
+        "url_imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Murillo-_Isaac_bendiciendo_a_Jacob.jpg/640px-Murillo-_Isaac_bendiciendo_a_Jacob.jpg",
         "estilo": 1,
         "tipo_de_obra": 0,
         "trabajo_representado": [
@@ -977,7 +1005,8 @@
         "tipo_de_obra": 0,
         "trabajo_representado": [
             0,
-            3
+            3,
+            4
         ]
     }
 },
@@ -997,7 +1026,8 @@
         "tipo_de_obra": 0,
         "trabajo_representado": [
             0,
-            3
+            3,
+            4
         ]
     }
 },
@@ -1035,7 +1065,7 @@
         "estilo": 1,
         "tipo_de_obra": 0,
         "trabajo_representado": [
-            3
+            4
         ]
     }
 },
@@ -1092,7 +1122,8 @@
         "estilo": 1,
         "tipo_de_obra": 0,
         "trabajo_representado": [
-            3
+            3,
+            4
         ]
     }
 },
@@ -1107,7 +1138,7 @@
         "iconografia": "Virgen cambiando pañales al niño",
         "descripcion": "Virgen fajando al niño Jesús mientras ángeles tocan",
         "url_externa": null,
-        "url_imagen": null,
+        "url_imagen": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Murillo-virgen_de_la_faja.jpg",
         "estilo": 1,
         "tipo_de_obra": 0,
         "trabajo_representado": [
@@ -1126,11 +1157,11 @@
         "iconografia": "Vieja con niño en una cocina",
         "descripcion": "Vieja en una cocina con un niño que porta un melón se encuentra friendo huevos en un anafe de barro",
         "url_externa": null,
-        "url_imagen": null,
+        "url_imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Diego_Velazquez_-_An_Old_Woman_Cooking_Eggs_-_Google_Art_Project.jpg/300px-Diego_Velazquez_-_An_Old_Woman_Cooking_Eggs_-_Google_Art_Project.jpg",
         "estilo": 1,
         "tipo_de_obra": 0,
         "trabajo_representado": [
-            10
+            28
         ]
     }
 },
@@ -1145,7 +1176,7 @@
         "iconografia": "Santa Ana educa a la Virgen",
         "descripcion": "Santa Ana con San Joaquín enseñan a leer a la Virgen",
         "url_externa": null,
-        "url_imagen": null,
+        "url_imagen": "https://upload.wikimedia.org/wikipedia/commons/3/3a/EducacionVirgenVelazquez.jpg",
         "estilo": 1,
         "tipo_de_obra": 0,
         "trabajo_representado": [
@@ -1183,12 +1214,12 @@
         "iconografia": "Visita de Cristo a casa de Marta y María",
         "descripcion": "Bodegón a lo divino, en segundo término escena biblíca, en primer termino dos mujeres cocinando",
         "url_externa": null,
-        "url_imagen": null,
+        "url_imagen": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Cristo_en_casa_de_Marta_y_Mar%C3%ADa%2C_by_Diego_Vel%C3%A1zquez.jpg",
         "estilo": 1,
         "tipo_de_obra": 0,
         "trabajo_representado": [
             10,
-            19
+            28
         ]
     }
 },
@@ -1203,7 +1234,7 @@
         "iconografia": "Mulata en la cocina limpiando, cena de Emáus",
         "descripcion": "El cuadro presenta a una muchacha de tez oscura y cofia blanca situada tras una mesa de cocina que corta la figura de medio cuerpo. Con su mano izquierda coge un jarro de cerámica vidriada, quedando sobre la mesa otros cacharros de loza y bronce, entre ellos un almirez con su mano y un ajo. En la pared del fondo un cesto de mimbre cuelga de una escarpia con una servilleta blanca. En 1933 al procederse a una limpieza se descubrió bajo un amplio repinte del fondo una ventana a través de la cual se ve a Cristo bendiciendo el pan y a un hombre barbado a su izquierda, faltando un segundo discípulo del que sólo queda una mano, dado el recorte sufrido por el lienzo en esta parte. La escena así representada, la Cena de Emaús.",
         "url_externa": null,
-        "url_imagen": null,
+        "url_imagen": "https://upload.wikimedia.org/wikipedia/commons/1/13/La_mulata%2C_by_Diego_Vel%C3%A1zquez.jpg",
         "estilo": 1,
         "tipo_de_obra": 0,
         "trabajo_representado": [
@@ -1219,11 +1250,11 @@
         "nombre_obra": "La mulata, La cocinera o Escena de cocina",
         "autor": 7,
         "anno": "1618",
-        "ubicacion": " Instituto de Arte, Chicago",
+        "ubicacion": "Instituto de Arte, Chicago",
         "iconografia": "Mulata en la cocina, recogiendo con cacharros",
         "descripcion": "Bodegón de figuras hecho por Velázquez. Semejante es otro cuadro de la National Gallery de Dublín, en Irlanda, legado en 1987 por Alfred Beit, en el que tras una limpieza efectuada en 1933 se descubrió La cena de Emaús en la pared del fondo, otorgando un significado religioso a lo que hasta entonces no era sino uno más de los «bodegones con figuras» pintados por Velázquez en Sevilla.",
         "url_externa": null,
-        "url_imagen": null,
+        "url_imagen": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Velazquez-CuineraChicago.jpg",
         "estilo": 1,
         "tipo_de_obra": 0,
         "trabajo_representado": [
@@ -1243,7 +1274,7 @@
         "iconografia": "Santa Ana da a luz a Virgen María",
         "descripcion": "Estancia, Santa Ana en la cama tras dar a luz a María, es atendida por sirviendas que le dan de comer. A los pies matronas lavan y atienden al bebé. La comitente del cuadro en un lateral vive la escena y porta cesta con huevos. Por cronología sería obra hecha en Sevilla.",
         "url_externa": null,
-        "url_imagen": null,
+        "url_imagen": "https://www.artehistoria.com/sites/default/files/imagenobra/ZUN02303.jpg",
         "estilo": 1,
         "tipo_de_obra": 0,
         "trabajo_representado": [
@@ -1261,14 +1292,15 @@
         "autor": 8,
         "anno": "1658?",
         "ubicacion": "Fundación Rodríguez Acosta",
-        "iconografia": "Virgem niña",
-        "descripcion": "Virgen niña para su labor de costura (sudario de Cristo) para rezar",
+        "iconografia": "Virgen niña",
+        "descripcion": "Virgen niña para su labor de costura/bordado (sudario de Cristo) para rezar",
         "url_externa": null,
-        "url_imagen": null,
+        "url_imagen": "http://www.fundacionrodriguezacosta.com/typo3temp/pics/635a1ca0c1.jpg",
         "estilo": 1,
         "tipo_de_obra": 0,
         "trabajo_representado": [
-            3
+            3,
+            4
         ]
     }
 },
@@ -1283,7 +1315,7 @@
         "iconografia": "Educación de la Virgen",
         "descripcion": "Santa Ana con la virgencita enseñándole a leer. Las dimensiones hacen posible que fuera cuadro de altar, pero también podría ser de devoción particular. La ambientación en terraza alfombrada con balaustrada abierta al paisaje",
         "url_externa": null,
-        "url_imagen": null,
+        "url_imagen": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Alonso_Cano_-_The_Education_of_the_Virgin_-_Google_Art_Project.jpg",
         "estilo": 1,
         "tipo_de_obra": 0,
         "trabajo_representado": [
@@ -1301,9 +1333,9 @@
         "anno": "1663",
         "ubicacion": "Catedral de Granada",
         "iconografia": "Nacimiento de la Virgen",
-        "descripcion": "La escena principal que es la Virgen acabada de nacer que es ofrecida al Cielo por su padre San Joaquín mientras que espera una matrona con el paño extendido sobre su regazo.\n En el tercer plano se encuentra otra ayudante pendiente de limpiar a la Niña, mientras que otra pasa mucho más oculta atendiendo a Santa Ana que acaba de dar a luz",
+        "descripcion": "La escena principal que es la Virgen acabada de nacer que es ofrecida al Cielo por su padre San Joaquín mientras que espera una matrona con el paño extendido sobre su regazo.\r\n En el tercer plano se encuentra otra ayudante pendiente de limpiar a la Niña, mientras que otra pasa mucho más oculta atendiendo a Santa Ana que acaba de dar a luz",
         "url_externa": null,
-        "url_imagen": null,
+        "url_imagen": "https://albayalde.files.wordpress.com/2008/06/imagen1acnacimiento-virgen.png",
         "estilo": 1,
         "tipo_de_obra": 0,
         "trabajo_representado": [
@@ -1322,11 +1354,12 @@
         "iconografia": "Anunciación a la Virgen",
         "descripcion": "Anunciación a la Virgen que se encontraba leyendo con sus labores de costura a los pies. Es una copia muy fiel de la Anunciación de Murillo",
         "url_externa": null,
-        "url_imagen": null,
+        "url_imagen": "https://image.invaluable.com/housePhotos/sothebys/09/230809/H0046-L09984442.jpg",
         "estilo": 1,
         "tipo_de_obra": 0,
         "trabajo_representado": [
-            3
+            3,
+            4
         ]
     }
 },
@@ -1341,11 +1374,12 @@
         "iconografia": "Educación Virgen",
         "descripcion": "Santa Ana sentada enseña a leer a la Virgen. En la esquina se muestra la canasta de las costura.",
         "url_externa": null,
-        "url_imagen": null,
+        "url_imagen": "https://image.invaluable.com/housePhotos/Segre/93/661393/H21834-L193306371.jpg",
         "estilo": 1,
         "tipo_de_obra": 0,
         "trabajo_representado": [
             3,
+            4,
             7
         ]
     }
@@ -1378,13 +1412,15 @@
         "anno": "XVII-XVIII",
         "ubicacion": "Museo de Bellas Artes, Córdoba",
         "iconografia": "Educación de la Virgen con sus padres",
-        "descripcion": "Familia de la Virgen, la virgen niña recibe educación. Atrás escena de la virgen bebé atendida por ángeles.\nEn un ánguelo ángeles con costura.",
+        "descripcion": "Familia de la Virgen, la virgen niña recibe educación. Atrás escena de la virgen bebé atendida por ángeles.\r\nEn un ánguelo ángeles con costura.",
         "url_externa": null,
-        "url_imagen": null,
+        "url_imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Andres_perez_de_pineda-mbacordoba.jpg/455px-Andres_perez_de_pineda-mbacordoba.jpg",
         "estilo": 1,
         "tipo_de_obra": 0,
         "trabajo_representado": [
+            0,
             3,
+            4,
             7
         ]
     }
@@ -1437,7 +1473,7 @@
         "ubicacion": "Real Academia de Bellas Artes de San Fernando, Madrid.",
         "iconografia": "Cristo y la Samaritana",
         "descripcion": "La obra representa un pasaje del Nuevo Testamento recogido en el capítulo 4 de Juan. Es un lienzo bellísimo en que el maestro granadino, partiendo de una estampa del pintor holandés Saenredam, recoge a la vez lo mejor de la pintura renacentista veneciana. En un fondo de paisaje con celajes de tonos azules y grises, la samaritana apoya su cántaro en el brocal del pozo mientras escucha a Cristo.",
-        "url_externa": "https://www.academiacolecciones.com/pinturas/inventario.php?id=0548",
+        "url_externa": null,
         "url_imagen": "https://www.academiacolecciones.com/pinturas/server/files/medium/0548.jpg",
         "estilo": 1,
         "tipo_de_obra": 0,
@@ -1480,7 +1516,6 @@
         "estilo": 0,
         "tipo_de_obra": 0,
         "trabajo_representado": [
-            14,
             17
         ]
     }
@@ -1514,12 +1549,13 @@
         "ubicacion": "Museo del Prado",
         "iconografia": "Mujer en cocina",
         "descripcion": "Escena de la vida doméstica donde se puede observar a una mujer en la cocina, con un gato, un perro, rodeada de enseres de cocina y varios recipientes al fuego.",
-        "url_externa": "https://www.museodelprado.es/coleccion/obra-de-arte/la-cocinera/48276980-8059-49ff-8713-0c9b85ab3cee",
+        "url_externa": null,
         "url_imagen": "https://content3.cdnprado.net/imagenes/Documentos/imgsem/48/4827/48276980-8059-49ff-8713-0c9b85ab3cee/be5a8bd6-55ad-4a72-9320-918e327f06a6.jpg",
         "estilo": 1,
         "tipo_de_obra": 0,
         "trabajo_representado": [
-            10
+            10,
+            28
         ]
     }
 },
@@ -1609,7 +1645,7 @@
         "ubicacion": "Museo de Bellas Artes de Sevilla",
         "iconografia": "Santa Ana y la Virgen María",
         "descripcion": "El tema de Santa Ana se inspira en los Evangelios Apócrifos y, aunque su devoción no estuvo muy extendida, experimentó un resurgimiento en los siglos XVII y XVIII en su representación de maestra, tanto por su dimensión intimista como por el modelo de santificación del aprendizaje buscado por la sociedad ilustrada.\r\n\r\nEl esquema compositivo de esta obra, en diagonal, presenta la figura sedente de Santa Ana, de edad madura, presentando un libro a la Virgen Niña que se inclina atenta para su lectura. María aparece ricamente vestida con túnica rosa bordada en oro y piedras preciosas y manto azul con perlas y estrellas. Se adorna también con joyas como la corona, pendientes, anillo y collar, atributos de una belleza exterior espejo de la espiritual. En la estancia se observan detalles propios de un ambiente doméstico como la cesta con dulces sobre una mesa, un cajón entreabierto con encajes y labores bajo el que se encuentran un perro y un gato, una cesta de ovillos y un cojín de bordar. Se aprecian en esta obra las características propias de la pintura de Roelas: el gran aparato compositivo, los personajes que aparecen con gestos y sentimientos extraídos de la vida real y el colorido suntuoso de estirpe veneciana donde predominan los tonos cálidos y los matices brillantes. En la primera generación de pintores sevillanos del siglo XVII, Roelas representa la renovación naturalista que triunfará, basada en un lenguaje directo y narrativo.",
-        "url_externa": "https://www.museosdeandalucia.es/web/museodebellasartesdesevilla/obras-singulares/-/asset_publisher/GRnu6ntjtLfp/content/santa-ana-ensenando-a-leer-a-la-virgen",
+        "url_externa": null,
         "url_imagen": "https://www.museosdeandalucia.es/image/journal/article?img_id=89059573&t=1602676973117",
         "estilo": 1,
         "tipo_de_obra": 0,
@@ -1647,13 +1683,14 @@
         "anno": "siglo XVIII",
         "ubicacion": "Colección particular",
         "iconografia": "Educación de la Virgen",
-        "descripcion": "La obra representa a santa Ana sedente que enseña a su hija\r\nlos primeros rudimentos de lectura. Torres42 es un pintor del que apenas conocemos algunos datos\r\nbiográficos: trabajó en la decoración de la iglesia de San Pablo de Sevilla, donde se le atribuyen\r\ncon certeza algunos de los apóstoles de los pilares de la iglesia43 y algunos cuadros de pequeño\r\ntamaño",
-        "url_externa": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fxn--archivoespaoldearte-53b.revistas.csic.es%2Findex.php%2Faea%2Farticle%2Fdownload%2F946%2F981%2F979&psig=AOvVaw0aLEJ8IS5shgtJLkoXTG_b&ust=1678466519702000&source=images&cd=vfe&ved=0CBEQjhxqFwoTCIjHipelz_0CFQAAAAAdAAAAABAr",
-        "url_imagen": null,
+        "descripcion": "La obra representa a santa Ana sedente que enseña a su hija\r\nlos primeros rudimentos de lectura. Torres es un pintor del que apenas conocemos algunos datos\r\nbiográficos: trabajó en la decoración de la iglesia de San Pablo de Sevilla, donde se le atribuyen\r\ncon certeza algunos de los apóstoles de los pilares de la iglesia43 y algunos cuadros de pequeño\r\ntamaño",
+        "url_externa": null,
+        "url_imagen": "https://www.artnet.com/WebServices/images/ll00125lldzQ5GFgXbECfDrCWvaHBOcyMEE/clemente-de-torres-la-educaci%C3%B3n-de-la-virgen.jpg",
         "estilo": 1,
         "tipo_de_obra": 0,
         "trabajo_representado": [
             3,
+            4,
             7
         ]
     }
@@ -1782,8 +1819,8 @@
         "ubicacion": "Parroquia Santuario de Santa María de Begoña, Bilbao",
         "iconografia": "Sagrada familia",
         "descripcion": "Sagrada familia en el taller de carpintería, escena de ámbito familiar, María dando de comer al niño mientras San José duerme junto a sus útiles de carpintería. Los ángeles asisten a la sagrada familia.",
-        "url_externa": "http://www.esmasfacil.org/murillo-estela/41.html",
-        "url_imagen": null,
+        "url_externa": null,
+        "url_imagen": "http://www.esmasfacil.org/murillo-estela/img/portfolio/single/41.jpg",
         "estilo": 1,
         "tipo_de_obra": 0,
         "trabajo_representado": [
@@ -1802,11 +1839,13 @@
         "iconografia": "Sagrada familia",
         "descripcion": "Sagrada familia, María sentada cose mientras San José sostiene al niño",
         "url_externa": null,
-        "url_imagen": "http://zone47.com/crotos/?q=112578956",
+        "url_imagen": "https://commons.wikimedia.org/wiki/File:Sagrada_Familia_Andr%C3%A9_Rubira_Museu_de_Leiria_01.jpg",
         "estilo": 1,
         "tipo_de_obra": 0,
         "trabajo_representado": [
-            0
+            0,
+            3,
+            4
         ]
     }
 },
@@ -1821,11 +1860,11 @@
         "iconografia": "Vieja con huevos y gallina",
         "descripcion": "La anciana sostiene una gallina con ambas manos y una cesta repleta de frescos huevos con el antebrazo. En la expresión y rasgos de su cara (boca desdentada, nariz afilada, ojos hundidos…) se aprecian los muchos sufrimientos y penalidades padecidos en su vida.",
         "url_externa": null,
-        "url_imagen": "https://miespaciodelarte.wordpress.com/2010/04/30/el-joven-murillo/",
+        "url_imagen": "https://www.canalcientifico.chilehuevos.cl/storage/articulos/October2020/6mBZ8TCQXZj2G3SZ0PvB-full.jpg",
         "estilo": 1,
         "tipo_de_obra": 0,
         "trabajo_representado": [
-            24
+            25
         ]
     }
 },
@@ -1840,7 +1879,7 @@
         "iconografia": "El encuentro entre Jacob y Raquel junto a un pozo",
         "descripcion": "Nos ilustra el momento en el que el patriarca, después de un largo viaje desde Canaán para buscar esposa, se encuentra con su bella prima Raquel. Al momento quedó prendado de ella, hasta tal punto que, dotado de una fuerza extraordinaria, pudo abrir el brocal de un pozo para que abrevaran los rebaños de su pariente, y así ganarse su favor.\r\n\r\nRaquel va como pastora junto a otras mujeres de su parentela llevando sus ovejas",
         "url_externa": null,
-        "url_imagen": "http://leyendasdesevilla.blogspot.com/2018/04/2018-ano-murillo-parte-v-la-casa-de-los.html",
+        "url_imagen": "https://upload.wikimedia.org/wikipedia/commons/d/d6/The_Meeting_of_Jacob_and_Rachel_at_the_Well_.PNG",
         "estilo": 1,
         "tipo_de_obra": 0,
         "trabajo_representado": [
@@ -1902,7 +1941,8 @@
         "tipo_de_obra": 0,
         "trabajo_representado": [
             15,
-            24
+            24,
+            25
         ]
     }
 },
@@ -1934,16 +1974,15 @@
         "autor": 29,
         "anno": "ca. 1600",
         "ubicacion": "Palacio Arzobispal de Sevilla, Galería del Prelado",
-        "iconografia": "Aldeanos en labores de la estanción",
+        "iconografia": "Aldeanos en labores de la estación",
         "descripcion": "Grupo de aldeanos se ocupan en labores propicias en esta estación para producir alimentos. En primer término se ve a un mujer ordeñando cabras con cántaros de leche, a otra haciendo el queso en la quesera a otra sirviendo leche a un niño.",
         "url_externa": null,
         "url_imagen": null,
         "estilo": 2,
         "tipo_de_obra": 0,
         "trabajo_representado": [
-            0,
-            24,
-            25
+            25,
+            28
         ]
     }
 },
@@ -1984,7 +2023,7 @@
         "tipo_de_obra": 0,
         "trabajo_representado": [
             10,
-            24
+            28
         ]
     }
 },
@@ -2003,9 +2042,7 @@
         "estilo": 2,
         "tipo_de_obra": 0,
         "trabajo_representado": [
-            10,
-            15,
-            24
+            28
         ]
     }
 },
@@ -2024,7 +2061,7 @@
         "estilo": 2,
         "tipo_de_obra": 0,
         "trabajo_representado": [
-            10
+            28
         ]
     }
 },
@@ -2043,7 +2080,86 @@
         "estilo": 2,
         "tipo_de_obra": 0,
         "trabajo_representado": [
-            10
+            10,
+            28
+        ]
+    }
+},
+{
+    "model": "trama.obra",
+    "pk": 113,
+    "fields": {
+        "nombre_obra": "Anunciación",
+        "autor": 31,
+        "anno": "1605",
+        "ubicacion": "Ático del retablo mayor de la Iglesia de la Anunciación de Sevilla",
+        "iconografia": "Anunciación",
+        "descripcion": "La escena se divide en dos niveles. En el bajo, que correspondería a la tierra, aparece la Virgen en un ambiente doméstico, la cual parece haber interrumpido su oración para escuchar las palabras del arcángel Gabriel.",
+        "url_externa": null,
+        "url_imagen": "https://www.archisevilla.org/wp-content/uploads/2018/12/Anunciacion-low-600x881.jpg",
+        "estilo": 2,
+        "tipo_de_obra": 0,
+        "trabajo_representado": [
+            3,
+            4
+        ]
+    }
+},
+{
+    "model": "trama.obra",
+    "pk": 114,
+    "fields": {
+        "nombre_obra": "Anunciación",
+        "autor": 8,
+        "anno": "1638",
+        "ubicacion": "Museo de Grenoble",
+        "iconografia": "Anunciación",
+        "descripcion": "Anunciación a la Virgen María por parte del Arcángel San Gabriel. Originariamente, esta obra fue parte de un retablo, ubicada en el compartimento izquierdo del primer cuerpo del retablo del altar mayor de la Cartuja de Jerez de la Frontera.",
+        "url_externa": null,
+        "url_imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/La_Anunciaci%C3%B3n%2C_por_Francisco_de_Zurbar%C3%A1n.jpg/320px-La_Anunciaci%C3%B3n%2C_por_Francisco_de_Zurbar%C3%A1n.jpg",
+        "estilo": 1,
+        "tipo_de_obra": 0,
+        "trabajo_representado": [
+            3
+        ]
+    }
+},
+{
+    "model": "trama.obra",
+    "pk": 115,
+    "fields": {
+        "nombre_obra": "Nacimiento de San Juan Bautista",
+        "autor": 32,
+        "anno": "mitad siglo XVII",
+        "ubicacion": "Colección particular",
+        "iconografia": "Nacimiento del Bautista",
+        "descripcion": "Francisco Meneses Osorio fue un seguidor cercano de la obra de Murillo, aquí retoma el tema del maestro y la composición realmente resulta muy cercana a la del cuadro del Norton Simon Museum",
+        "url_externa": null,
+        "url_imagen": "https://sothebys-com.brightspotcdn.com/dims4/default/dc23305/2147483647/strip/true/crop/2000x2000+0+0/resize/2880x2880!/format/webp/quality/90/?url=http%3A%2F%2Fsothebys-brightspot-migration.s3.amazonaws.com%2F63%2F40%2F5b%2F23e3f7fda4f1c8da4857321e276ea0e3b7c25376a517613a1bf8ebe61e%2Fl10030-172-lr-1.jpg",
+        "estilo": 1,
+        "tipo_de_obra": 0,
+        "trabajo_representado": [
+            17
+        ]
+    }
+},
+{
+    "model": "trama.obra",
+    "pk": 116,
+    "fields": {
+        "nombre_obra": "Anunciación",
+        "autor": 19,
+        "anno": "1616-1619",
+        "ubicacion": "Colección particular",
+        "iconografia": "Anunciación",
+        "descripcion": "Óleo sobre lienzo. Obra de indudable calidad artística de nuestra pintura del Siglo de Oro. El rostro de la Virgen remite sin lugar a dudas a la producción de Juan de Roelas. Así, por ejemplo, podemos comparar el parecido entre los modelos femeninos de esta Anunciación y la Virgen de la Sagrada Familia, enmarcada en una guirnalda, de la Casa Cuna de Sevilla; o la Santa Ana de la Educación de la Virgen (Sevilla, Museo de Bellas Artes).\r\nEl ambiente naturalista que rodea a los personajes centrales sugiere que la pintura puede pertenecer a los años en que se instala en la Corte (1616-1619), momento en el cual ejecuta la Liberación de San Pedro (Madrid, Monasterio de la Encarnación), y cuya atmósfera refleja un cierto caravaggismo suave y atemperado cercano al que podemos observar en nuestra pintura.\r\nEsta Anunciación, asimismo, refleja una cierta influencia de OrazioBorgianni(1575-1616), quien estuvo en dos ocasiones en España, como se ve en el tratamiento de los objetos y la luz cálida que los envuelve.\r\nMedidas: 114x160 cm",
+        "url_externa": null,
+        "url_imagen": "https://www.fernandoduran.com/pub/media/catalog/product/cache/4c762bd307134c676b34b108626771f9/4/5/456-1395993.jpg",
+        "estilo": 1,
+        "tipo_de_obra": 0,
+        "trabajo_representado": [
+            3,
+            4
         ]
     }
 }
